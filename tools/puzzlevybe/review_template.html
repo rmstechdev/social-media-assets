@@ -1,0 +1,147 @@
+<title>PuzzleVybe Content Queue</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one column of post "proof sheets", media left, copy right; stacks on phones. */
+:root{
+  --paper:#f6f8f8; --card:#ffffff; --ink:#0e2530; --muted:#55666c; --line:#dbe4e5;
+  --wine:#0f7a72; --wine-soft:#e3f3f1; --pink:#d42a5c; --pink-soft:#fde8ee; --ok:#1f6b45; --ok-soft:#e5f2ea; --warn:#8a5a00; --warn-soft:#fbf0d9;
+  --serif:"Poppins","Figtree",system-ui,sans-serif;
+  --sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0b1a21; --card:#11252e; --ink:#eef5f5; --muted:#9db0b5; --line:#22404a;
+  --wine:#5fd6c9; --wine-soft:#123a3a; --pink:#ff7a9c; --pink-soft:#3a1824; --ok:#7fd1a2; --ok-soft:#1b3326; --warn:#f0c46a; --warn-soft:#3a2e14; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0b1a21; --card:#11252e; --ink:#eef5f5; --muted:#9db0b5; --line:#22404a;
+  --wine:#5fd6c9; --wine-soft:#123a3a; --pink:#ff7a9c; --pink-soft:#3a1824; --ok:#7fd1a2; --ok-soft:#1b3326; --warn:#f0c46a; --warn-soft:#3a2e14; color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+.wrap{max-width:1120px;margin:0 auto;padding-block:40px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:24px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--wine);font-weight:600}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(28px,4vw,40px);line-height:1.1;margin:6px 0 8px;text-wrap:balance}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+.tally{display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.chip{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--muted);background:var(--card)}
+.chip b{color:var(--ink)}
+.posts{display:flex;flex-direction:column;gap:28px;margin-top:28px}
+article{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.top{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--line)}
+.top h2{font-family:var(--serif);font-size:21px;margin:2px 0 0;text-wrap:balance}
+.slot{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.status{display:flex;gap:6px}
+.status button{font:600 13px var(--sans);border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 12px;cursor:pointer}
+.status button[aria-pressed="true"].ok{background:var(--ok-soft);color:var(--ok);border-color:var(--ok)}
+.status button[aria-pressed="true"].fix{background:var(--warn-soft);color:var(--warn);border-color:var(--warn)}
+.body{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:24px;padding:20px}
+.media{display:grid;grid-template-columns:1fr .75fr;gap:12px;align-items:start}
+.slides{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.slides img{border-radius:6px}
+.note{margin:12px 0 0;padding:10px 14px;border-radius:8px;background:var(--pink-soft);color:var(--pink);font-weight:600;font-size:14px;max-width:62ch}
+.type{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--wine);background:var(--wine-soft);padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:2px}
+.media figure{margin:0;display:flex;flex-direction:column;gap:6px}
+.media img,.media video{width:100%;max-width:100%;border-radius:8px;border:1px solid var(--line);display:block;background:var(--paper)}
+figcaption{font-size:12px;color:var(--muted)}
+.copy{display:flex;flex-direction:column;gap:16px;min-width:0}
+.cap{border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.cap-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.cap-h span{font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.cap pre{margin:0;white-space:pre-wrap;word-wrap:break-word;font:15px/1.55 var(--sans);color:var(--ink)}
+.tags{color:var(--wine);font-size:14px;word-wrap:break-word}
+.btn{font:600 13px var(--sans);border:1px solid var(--wine);color:var(--wine);background:transparent;border-radius:8px;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--wine-soft)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--wine);outline-offset:2px}
+.links{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px}
+.links a{color:var(--wine)}
+.count{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.how{margin-top:40px;border-top:1px solid var(--line);padding-top:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px}
+.how h3{font-family:var(--serif);font-size:17px;margin:0 0 6px}
+.how p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+@media (max-width:820px){.body{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">PuzzleVybe · Social queue</div>
+      <h1>__HEADING__</h1>
+      <p class="lede">Three puzzles. Each has a 3-slide Instagram carousel (the art, hands putting it together, the finished puzzle on a table), a 9:16 video for Reels and TikTok, and a caption for each platform.</p>
+      <p class="note" id="sale"></p>
+    </div>
+    <div class="tally" id="tally"></div>
+  </header>
+  <div class="posts" id="posts"></div>
+  <section class="how">
+    <div><h3>Approve</h3><p>Mark a post approved, copy its captions, and load the image or video into your scheduler. Each batch also arrives as a zip in the chat.</p></div>
+    <div><h3>Needs changes</h3><p>Tell Claude in the chat what to change (the hook, the tone, a hashtag) and it will redo that post.</p></div>
+    <div><h3>Next batches</h3><p>New batches arrive on a schedule with a fresh set of books, skipping anything featured recently.</p></div>
+  </section>
+</div>
+
+<script>
+const DATA = __DATA__;
+const KEY = "apexlit-queue-" + DATA.batch;
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { state = {}; }
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+const el = (t, a = {}, ...kids) => { const n = document.createElement(t);
+  for (const [k, v] of Object.entries(a)) { if (k === "class") n.className = v; else if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v); }
+  kids.flat().forEach(k => n.append(k)); return n; };
+
+function copyBtn(text){
+  const b = el("button", {class: "btn", type: "button"}, "Copy");
+  b.addEventListener("click", () => {
+    const done = () => { b.textContent = "Copied"; setTimeout(() => b.textContent = "Copy", 1500); };
+    navigator.clipboard.writeText(text).then(done).catch(() => {
+      const pre = b.closest(".cap").querySelector("pre"); const r = document.createRange(); r.selectNodeContents(pre);
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selected";
+    });
+  });
+  return b;
+}
+function capBox(label, text, tags, limit){
+  const full = text + "\n\n" + tags;
+  return el("div", {class: "cap"},
+    el("div", {class: "cap-h"}, el("span", {}, label), el("span", {class: "count"}, full.length + " / " + limit + " chars"), copyBtn(full)),
+    el("pre", {}, text), el("div", {class: "tags"}, tags));
+}
+function tally(){
+  const v = DATA.posts.map(p => state[p.id]);
+  const ok = v.filter(x => x === "ok").length, fix = v.filter(x => x === "fix").length;
+  document.getElementById("tally").replaceChildren(
+    el("span", {class: "chip"}, el("b", {}, String(ok)), " approved"),
+    el("span", {class: "chip"}, el("b", {}, String(fix)), " need changes"),
+    el("span", {class: "chip"}, el("b", {}, String(DATA.posts.length - ok - fix)), " to review"));
+}
+const list = document.getElementById("posts");
+DATA.posts.forEach(p => {
+  const status = el("div", {class: "status", role: "group", "aria-label": "Review status"});
+  [["ok", "Approved"], ["fix", "Needs changes"]].forEach(([k, label]) => {
+    const b = el("button", {type: "button", class: k, id: "st-" + p.id + "-" + k, "aria-pressed": String(state[p.id] === k)}, label);
+    b.addEventListener("click", () => { state[p.id] = state[p.id] === k ? null : k; save();
+      status.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(state[p.id] === x.className))); tally(); });
+    status.append(b);
+  });
+  const links = el("div", {class: "links"},
+    el("a", {href: p.page, target: "_blank", rel: "noopener"}, "Book page"),
+    el("a", {href: p.buy, target: "_blank", rel: "noopener"}, "Product link for bio"));
+  if (p.buy_alt) links.append(el("a", {href: p.buy_alt, target: "_blank", rel: "noopener"}, "Etsy printable"));
+  list.append(el("article", {id: p.id},
+    el("div", {class: "top"}, el("div", {}, el("div", {class: "slot"}, p.slot + " · " + p.price + " ", el("span", {class: "type"}, p.type === "problem_solution" ? "Problem → solution" : p.type === "identity" ? "Identity" : "Inside look")), el("h2", {}, p.title)), status),
+    el("div", {class: "body"},
+      el("div", {class: "media"},
+        el("figure", {}, el("img", {src: "media/" + p.id + "-1.jpg", alt: "Carousel slide 1 for " + p.title, loading: "lazy"}),
+          el("div", {class: "slides"}, [2, 3].map(n => el("img", {src: "media/" + p.id + "-" + n + ".jpg", alt: "Carousel slide " + n, loading: "lazy"}))),
+          el("figcaption", {}, "Instagram carousel · 3 slides · 1080×1350")),
+        el("figure", {}, el("video", {src: "media/" + p.id + "-reel.mp4", controls: "", muted: "", playsinline: "", preload: "metadata", poster: "media/" + p.id + "-poster.jpg"}), el("figcaption", {}, "Reel / TikTok"))),
+      el("div", {class: "copy"},
+        capBox("Instagram", p.instagram, p.instagram_tags, 2200),
+        capBox("TikTok", p.tiktok, p.tiktok_tags, 4000),
+        links))));
+});
+tally();
+if (DATA.sale) document.getElementById("sale").textContent = DATA.sale.note;
+</script>

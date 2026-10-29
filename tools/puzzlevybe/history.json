@@ -1,0 +1,34 @@
+{
+  "featured": [
+    {
+      "id": "graduation-glow",
+      "page": "https://www.puzzlevybe.com/listing/4476809890/graduation-glow-empowered-black-graduate",
+      "type": "problem_solution",
+      "format": "carousel",
+      "scheduled_for": "2026-10-30T19:15:00-04:00",
+      "buffer_post_id": "6ae2d362403488e83c98c87a",
+      "media_folder": "puzzlevybe/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "golden-valley",
+      "page": "https://www.puzzlevybe.com/listing/4308472801/golden-valley-jigsaw-puzzle-500-piece",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-01T19:15:00-05:00",
+      "buffer_post_id": "6ae2d368c4bbd0de4b4d78ca",
+      "media_folder": "puzzlevybe/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "barbershop-bond",
+      "page": "https://www.puzzlevybe.com/listing/4310369818/barbershop-bond-jigsaw-puzzle-500-piece",
+      "type": "identity",
+      "format": "reel",
+      "scheduled_for": "2026-11-03T19:15:00-05:00",
+      "buffer_post_id": "6ae2d375c4bbd0de4b4d7c5e",
+      "media_folder": "puzzlevybe/2026-10-29",
+      "created": "2026-10-29"
+    }
+  ]
+}

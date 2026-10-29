@@ -1,0 +1,44 @@
+{
+  "featured": [
+    {
+      "id": "will-ai-take-my-job",
+      "page": "https://www.apexlitpublishinggroup.com/books/10-will-ai-take-my-job/",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-02T12:15:00-05:00",
+      "buffer_post_id": "6ae2d37d02cc66e53399552d",
+      "media_folder": "apexlit/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "cybersecurity-small-business",
+      "page": "https://www.apexlitpublishinggroup.com/books/73-a-quick-guide-to-cybersecurity-for-small-business/",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-03T12:15:00-05:00",
+      "buffer_post_id": "6ae2d380c2255f48b9c82e78",
+      "media_folder": "apexlit/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "shades-of-success",
+      "page": "https://www.apexlitpublishinggroup.com/books/47-shades-of-success/",
+      "type": "identity",
+      "format": "feed image",
+      "scheduled_for": "2026-10-31T12:15:00-04:00",
+      "buffer_post_id": "6ae2d379c4bbd0de4b4d7e45",
+      "media_folder": "apexlit/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "math-mix-up-grade-3",
+      "page": "https://www.apexlitpublishinggroup.com/books/20-math-mix-up-3rd-grade-mastery-drills/",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-05T12:15:00-05:00",
+      "buffer_post_id": "6ae2d384c4bbd0de4b4d8163",
+      "media_folder": "apexlit/2026-10-29",
+      "created": "2026-10-29"
+    }
+  ]
+}
