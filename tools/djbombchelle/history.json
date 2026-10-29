@@ -1,0 +1,35 @@
+{
+  "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site.",
+  "featured": [
+    {
+      "id": "built-in-boston",
+      "title": "Built In Boston",
+      "brand": "DJ Bombchelle",
+      "format": "feed image",
+      "scheduled_for": "2026-10-30T20:45:00-04:00",
+      "buffer_post_id": "6ae2d91402cc66e5339a80ea",
+      "media_folder": "djbombchelle/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "velvet-vibes-vol-1",
+      "title": "Velvet Vibes, Vol. 1: R&B & Neo-Soul Grooves",
+      "brand": "Slamdino Entertainment",
+      "format": "feed image",
+      "scheduled_for": "2026-10-31T20:45:00-04:00",
+      "buffer_post_id": "6ae2d919403488e83c9a1a93",
+      "media_folder": "djbombchelle/2026-10-29",
+      "created": "2026-10-29"
+    },
+    {
+      "id": "better-days-vol-1",
+      "title": "Better Days: Uplifting Deep House Anthems Vol. 1",
+      "brand": "DJ Bombchelle",
+      "format": "feed image",
+      "scheduled_for": "2026-11-02T20:45:00-05:00",
+      "buffer_post_id": "6ae2d91dc2255f48b9c95434",
+      "media_folder": "djbombchelle/2026-10-29",
+      "created": "2026-10-29"
+    }
+  ]
+}
