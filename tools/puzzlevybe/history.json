@@ -29,6 +29,16 @@
       "buffer_post_id": "6ae2d375c4bbd0de4b4d7c5e",
       "media_folder": "puzzlevybe/2026-10-29",
       "created": "2026-10-29"
+    },
+    {
+      "id": "seasons-of-love",
+      "page": "https://www.puzzlevybe.com/listing/4354418158/seasons-of-love-jigsaw-puzzle-100-piece",
+      "type": "identity",
+      "format": "carousel",
+      "scheduled_for": "2026-11-04T19:15:00-05:00",
+      "buffer_post_id": "6ae5e12fceb491e585f81cb2",
+      "media_folder": "puzzlevybe/2026-10-31",
+      "created": "2026-10-31"
     }
   ]
 }
