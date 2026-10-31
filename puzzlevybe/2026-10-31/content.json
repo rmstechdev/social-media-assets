@@ -1,0 +1,36 @@
+{
+  "batch": "PuzzleVybe 2026-10-31",
+  "brand": "puzzlevybe",
+  "sale": {"label": "25% OFF · ENDS NOV 7", "note": "25% off through Nov 7; free shipping on every order"},
+  "posts": [
+    {
+      "id": "seasons-of-love",
+      "type": "identity",
+      "slot": "2026-11-04T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 100 PIECES",
+      "title": "Seasons of Love",
+      "art": "/tmp/claude-0/pvwork/sol/4354418158_art.png",
+      "hands": "/tmp/claude-0/pvwork/sol/img2.jpg",
+      "table": "/tmp/claude-0/pvwork/sol/img1.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4354418158/seasons-of-love-jigsaw-puzzle-100-piece",
+      "buy": "https://www.puzzlevybe.com/listing/4354418158/seasons-of-love-jigsaw-puzzle-100-piece",
+      "price": "$26.24",
+      "price_was": "$34.99",
+      "size": "17.9×14",
+      "slide2": "100 easy-to-handle pieces\nfor a cozy night in.",
+      "slide3": "A tribute to lifelong love, ready to frame.",
+      "feed_hook": "Still holding hands\nafter all these years.",
+      "video_frames": {
+        "hook": "Still\nholding\nhands.",
+        "hook_sub": "A puzzle for love that lasts",
+        "points": ["100 premium pieces", "Fall colors, warm art", "Free shipping"],
+        "cta": "Seasons of Love"
+      },
+      "instagram": "Still holding hands after all these years.\n\nSeasons of Love shows an older couple walking hand in hand down a tree-lined path full of fall color. It's a 100-piece puzzle that honors lifelong love, resilience and the journey you share.\n\nGive it to a grandparent, work on it with someone you love, or keep it for a cozy night in. The pieces are easy to handle, and it comes in a sturdy box made for gifting.\n\n🍂 Seasons of Love · 100 pieces · 17.9×14 frameable\n🏷️ 25% off through Nov 7, and shipping is free\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #SeasonsOfLove #JigsawPuzzle #GrowingOldTogether #AnniversaryGift #GiftForGrandparents #FallColors #PuzzleArt #CozyNightIn #FrameableArt",
+      "tiktok": "Still holding hands after all these years. Seasons of Love is a 100-piece puzzle for the couples who made it last.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #GrowingOldTogether #AnniversaryGift #PuzzleTok"
+    }
+  ]
+}
