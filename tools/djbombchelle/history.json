@@ -1,5 +1,5 @@
 {
-  "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site.",
+  "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site. 2026-11-01: Scars & Silence and Sweet Heat share Apple Music ID 1872063261; Black Woman Blues has two different cover files (DJ Bombchelle and Slamdino), treated as one album.",
   "featured": [
     {
       "id": "built-in-boston",
@@ -30,6 +30,28 @@
       "buffer_post_id": "6ae2d91dc2255f48b9c95434",
       "media_folder": "djbombchelle/2026-10-29",
       "created": "2026-10-29"
+    },
+    {
+      "id": "sweet-heat",
+      "title": "Sweet Heat: Uplifting R&B Grooves",
+      "brand": "Slamdino Entertainment",
+      "hook": "Headphones on. Let it warm you up.",
+      "format": "feed image",
+      "scheduled_for": "2026-11-04T20:45:00-05:00",
+      "buffer_post_id": "6ae746f837c1acd2a00a07a3",
+      "media_folder": "djbombchelle/2026-11-01",
+      "created": "2026-11-01"
+    },
+    {
+      "id": "scars-and-silence",
+      "title": "Scars & Silence",
+      "brand": "Slamdino Entertainment",
+      "hook": "Some silences say everything.",
+      "format": "feed image",
+      "scheduled_for": "2026-11-06T20:45:00-05:00",
+      "buffer_post_id": "6ae746f837c1acd2a00a07f1",
+      "media_folder": "djbombchelle/2026-11-01",
+      "created": "2026-11-01"
     }
   ]
 }
