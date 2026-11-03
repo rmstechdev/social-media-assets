@@ -1,0 +1,22 @@
+{
+  "clips": [
+    {
+      "file": "rise-better-days-hf.mp4",
+      "status": "needs_audio",
+      "products": [
+        {
+          "title": "Rise: Uplifting Deep House Anthems Vol. 2"
+        },
+        {
+          "title": "Better Days: Uplifting Deep House Anthems Vol. 1"
+        }
+      ],
+      "type": "album",
+      "shows": "Animated 'New music. Out now' card with both real covers over a sunset silhouette with arms raised; ends on the silhouette with light trails. Burned-in text lists Apple Music, Spotify, Tidal, YouTube and li.sten.to/djbombchellemusic.",
+      "caption_notes": "Silent clip. Use it only when inbox/audio has a clip for rise or better-days (mux it in, 10 s). Not within 14 days of a Better Days or Rise post.",
+      "ai_generated": true,
+      "source": "higgsfield f9610a72 (kling2_6, 2026-02-19)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "clips": [
+    {
+      "file": "salon-elegance-unboxing-hf.mp4",
+      "status": "ready",
+      "products": [
+        {
+          "title": "Salon Elegance Jigsaw Puzzle (100 piece)",
+          "page": "https://www.puzzlevybe.com/listing/1862138163/salon-elegance-jigsaw-puzzle-100-piece"
+        }
+      ],
+      "type": "identity",
+      "shows": "A woman opens the Salon Elegance box, hands assemble pieces, the finished puzzle is framed on a shelf. Art matches the listing.",
+      "caption_notes": "Price, sale and shipping lines only from the listing on the day you schedule.",
+      "ai_generated": true,
+      "source": "higgsfield 243c7fd5 (sora2, 2026-02-19)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    }
+  ]
+}

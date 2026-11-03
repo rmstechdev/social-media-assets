@@ -1,0 +1,66 @@
+{
+  "clips": [
+    {
+      "file": "fashion-coloring-books-hf.mp4",
+      "status": "ready",
+      "products": [
+        {
+          "title": "Shades of Elegance",
+          "page": "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/"
+        },
+        {
+          "title": "Curvy Couture",
+          "page": "https://www.apexlitpublishinggroup.com/books/33-curvy-couture/"
+        }
+      ],
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "shows": "Ad card 'Confidence is always in style. Printable fashion coloring books' with both real covers. Burned-in text says 50 stylish pages each, instant download, print unlimited copies, shop on Etsy.",
+      "caption_notes": "The site confirms printable PDF / digital download on Etsy and print on Amazon. Do not repeat the page count or 'print unlimited copies' in the caption; the site does not state them.",
+      "ai_generated": true,
+      "source": "higgsfield 8fb18b7a (kling2_6, 2026-02-24)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    },
+    {
+      "file": "coloring-night-vertical-hf.mp4",
+      "status": "ready",
+      "products": [],
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "shows": "Three Black women at a candlelit coloring night with wine and snacks, close-up of a colored-pencil coloring page. No specific book is identifiable.",
+      "caption_notes": "Brand-level post about coloring nights with friends; point to Cocoa Butter coloring books in general (link in bio). Do not name a specific book as the one shown. Space it at least 2 weeks from coloring-night-table-hf.",
+      "ai_generated": true,
+      "source": "higgsfield 0cdb799b (sora2, 2026-02-19)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    },
+    {
+      "file": "coloring-night-table-hf.mp4",
+      "status": "ready",
+      "products": [],
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "shows": "Four women coloring around a table with candles, wine and a charcuterie board; close-ups of coloring pages. No specific book is identifiable. Landscape clip on a blurred 9:16 background.",
+      "caption_notes": "Same rules as coloring-night-vertical-hf. Space them at least 2 weeks apart.",
+      "ai_generated": true,
+      "source": "higgsfield 60d38790 (sora2, 2026-02-19)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    },
+    {
+      "file": "black-culture-word-search-hf.mp4",
+      "status": "ready",
+      "products": [
+        {
+          "title": "Black Culture Word Search Puzzles",
+          "page": "https://www.apexlitpublishinggroup.com/books/29-black-culture-word-search-puzzles/"
+        }
+      ],
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "shows": "Playful meme-style edit: a surprised woman, an older man and a kid doing word searches, ending on the real Black Culture Word Search Puzzles cover with the Cocoa Butter Books logo.",
+      "caption_notes": "Light, playful tone fits. Facts only from the book page.",
+      "ai_generated": true,
+      "source": "higgsfield f8f1ca34 (sora2, 2026-02-12)",
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+    }
+  ]
+}
