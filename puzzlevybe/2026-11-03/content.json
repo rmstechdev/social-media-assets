@@ -1,0 +1,36 @@
+{
+  "batch": "PuzzleVybe 2026-11-03",
+  "brand": "puzzlevybe",
+  "sale": {"label": "25% OFF · ENDS NOV 7", "note": "25% off through Nov 7; free shipping on every order"},
+  "posts": [
+    {
+      "id": "spin-master",
+      "type": "identity",
+      "slot": "2026-11-06T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 500 PIECES",
+      "title": "Spin Master",
+      "art": "/home/claude/work/pv/4308481488_art.png",
+      "hands": "/home/claude/work/pv/hands.jpg",
+      "table": "/home/claude/work/pv/table.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4308481488/spin-master-jigsaw-puzzle-500-piece",
+      "buy": "https://www.puzzlevybe.com/listing/4308481488/spin-master-jigsaw-puzzle-500-piece",
+      "price": "$33.74",
+      "price_was": "$44.99",
+      "size": "20.5×15",
+      "slide2": "500 pieces, one record\nat a time.",
+      "slide3": "Finish the mix, then frame it.",
+      "feed_hook": "For the one who\nalways controls the music.",
+      "video_frames": {
+        "hook": "For the\none on the\ndecks.",
+        "hook_sub": "A puzzle for music lovers",
+        "points": ["500 precision-cut pieces", "Bold, colorful DJ art", "Free shipping"],
+        "cta": "Spin Master"
+      },
+      "instagram": "For the one who always controls the music.\n\nSpin Master is a 500-piece puzzle that celebrates the art of the DJ. A DJ deep in the mix sits at the center, surrounded by swirling records and pulsing lights in bold color.\n\nIt's made for music lovers, party people and art fans. Put on a set, work through it one record at a time, and frame it when the last piece drops in.\n\n🎧 Spin Master · 500 pieces · 20.5×15 frameable\n🏷️ 25% off through Nov 7, and shipping is free\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #SpinMaster #DJLife #DJCulture #BlackArt #JigsawPuzzle #GiftForMusicLovers #PuzzleArt #HipHopCulture #FrameableArt",
+      "tiktok": "For the one who always controls the music. Spin Master is a 500-piece puzzle that celebrates the art of the DJ.",
+      "tiktok_tags": "#PuzzleVybe #DJLife #JigsawPuzzle #GiftForMusicLovers #PuzzleTok"
+    }
+  ]
+}
