@@ -39,6 +39,16 @@
       "buffer_post_id": "6ae5e12fceb491e585f81cb2",
       "media_folder": "puzzlevybe/2026-10-31",
       "created": "2026-10-31"
+    },
+    {
+      "id": "spin-master",
+      "page": "https://www.puzzlevybe.com/listing/4308481488/spin-master-jigsaw-puzzle-500-piece",
+      "type": "identity",
+      "format": "reel",
+      "scheduled_for": "2026-11-06T19:15:00-05:00",
+      "buffer_post_id": "6ae9e3cdc6fbbde82489f198",
+      "media_folder": "puzzlevybe/2026-11-03",
+      "created": "2026-11-03"
     }
   ]
 }
