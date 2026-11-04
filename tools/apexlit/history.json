@@ -39,6 +39,32 @@
       "buffer_post_id": "6ae2d384c4bbd0de4b4d8163",
       "media_folder": "apexlit/2026-10-29",
       "created": "2026-10-29"
+    },
+    {
+      "id": "fashion-coloring-books-hf",
+      "page": "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
+      "pages": [
+        "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
+        "https://www.apexlitpublishinggroup.com/books/33-curvy-couture/"
+      ],
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "format": "inbox_reel",
+      "scheduled_for": "2026-11-07T12:15:00-05:00",
+      "buffer_post_id": "6aeb360a380a83ae530a1107",
+      "media_folder": "apexlit/2026-11-04",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "retirement-blueprint",
+      "page": "https://www.apexlitpublishinggroup.com/books/5-retirement-blueprint/",
+      "imprint": "ApexLit Publishing",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-09T12:15:00-05:00",
+      "buffer_post_id": "6aeb360be8225dc18de41170",
+      "media_folder": "apexlit/2026-11-04",
+      "created": "2026-11-04"
     }
   ]
 }

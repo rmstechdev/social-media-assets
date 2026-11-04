@@ -2,7 +2,7 @@
   "clips": [
     {
       "file": "fashion-coloring-books-hf.mp4",
-      "status": "ready",
+      "status": "posted",
       "products": [
         {
           "title": "Shades of Elegance",
@@ -19,7 +19,10 @@
       "caption_notes": "The site confirms printable PDF / digital download on Etsy and print on Amazon. Do not repeat the page count or 'print unlimited copies' in the caption; the site does not state them.",
       "ai_generated": true,
       "source": "higgsfield 8fb18b7a (kling2_6, 2026-02-24)",
-      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked.",
+      "scheduled_for": "2026-11-07T12:15:00-05:00",
+      "buffer_post_id": "6aeb360a380a83ae530a1107",
+      "media_folder": "apexlit/2026-11-04"
     },
     {
       "file": "coloring-night-vertical-hf.mp4",
