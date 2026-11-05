@@ -49,6 +49,26 @@
       "buffer_post_id": "6ae9e3cdc6fbbde82489f198",
       "media_folder": "puzzlevybe/2026-11-03",
       "created": "2026-11-03"
+    },
+    {
+      "id": "still-waters",
+      "page": "https://www.puzzlevybe.com/listing/4308486844/still-waters-jigsaw-puzzle-500-piece",
+      "type": "problem_solution",
+      "format": "carousel",
+      "scheduled_for": "2026-11-08T19:15:00-05:00",
+      "buffer_post_id": "6aec87960a5aa24b7149098c",
+      "media_folder": "puzzlevybe/2026-11-05",
+      "created": "2026-11-05"
+    },
+    {
+      "id": "goodnight-glow",
+      "page": "https://www.puzzlevybe.com/listing/4410146076/goodnight-glow-jigsaw-puzzle-100-piece",
+      "type": "identity",
+      "format": "reel",
+      "scheduled_for": "2026-11-10T19:15:00-05:00",
+      "buffer_post_id": "6aec87969d6da0f8f4c9c122",
+      "media_folder": "puzzlevybe/2026-11-05",
+      "created": "2026-11-05"
     }
   ]
 }
