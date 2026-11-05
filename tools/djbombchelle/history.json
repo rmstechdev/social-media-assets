@@ -52,6 +52,28 @@
       "buffer_post_id": "6ae746f837c1acd2a00a07f1",
       "media_folder": "djbombchelle/2026-11-01",
       "created": "2026-11-01"
+    },
+    {
+      "id": "step-and-slide-vol-1",
+      "title": "Step & Slide Sessions, Vol. 1",
+      "brand": "DJ Bombchelle",
+      "hook": "Three on the floor. Room for one more.",
+      "format": "feed image",
+      "scheduled_for": "2026-11-07T20:45:00-05:00",
+      "buffer_post_id": "6aec8cfb368462a0c0e65198",
+      "media_folder": "djbombchelle/2026-11-05",
+      "created": "2026-11-05"
+    },
+    {
+      "id": "soul-lounge-vol-1",
+      "title": "The Soul Lounge, Vol. 1: Neo-Soul & Jazz R&B Grooves",
+      "brand": "DJ Bombchelle",
+      "hook": "Red wine poured. Let the sax take over.",
+      "format": "feed image",
+      "scheduled_for": "2026-11-09T20:45:00-05:00",
+      "buffer_post_id": "6aec8cfbd8fec5bcb2da80a0",
+      "media_folder": "djbombchelle/2026-11-05",
+      "created": "2026-11-05"
     }
   ]
 }
