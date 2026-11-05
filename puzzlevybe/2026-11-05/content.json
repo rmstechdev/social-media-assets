@@ -1,0 +1,65 @@
+{
+  "batch": "PuzzleVybe 2026-11-05",
+  "brand": "puzzlevybe",
+  "sale": {"label": "FREE SHIPPING", "note": "Free shipping on every order"},
+  "posts": [
+    {
+      "id": "still-waters",
+      "type": "problem_solution",
+      "slot": "2026-11-08T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 500 PIECES",
+      "title": "Still Waters",
+      "art": "/home/claude/work/pv/4308486844_art.png",
+      "hands": "/home/claude/work/pv/4308486844_2.jpg",
+      "table": "/home/claude/work/pv/4308486844_1.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4308486844/still-waters-jigsaw-puzzle-500-piece",
+      "buy": "https://www.puzzlevybe.com/listing/4308486844/still-waters-jigsaw-puzzle-500-piece",
+      "price": "$44.99",
+      "size": "20.5×15",
+      "slide2": "500 pieces, one quiet\nstretch at a time.",
+      "slide3": "Finish the lake, then frame it.",
+      "feed_problem": "Sunday scroll\nwon't let you rest?",
+      "feed_answer": "Trade the screen for 500 quiet pieces.",
+      "video_frames": {
+        "problem": "Phone in\nhand all\nweekend?",
+        "why": "Screens keep\nyour mind\nrunning.",
+        "answer_label": "TRY THIS INSTEAD",
+        "points": ["500 precision-cut pieces", "Calm lake, bold color", "Free shipping"],
+        "cta": "Still Waters"
+      },
+      "instagram": "Sunday scroll won't let you rest?\n\nStill Waters is a 500-piece puzzle of a lone fisherman on a calm, reflective lake, surrounded by a brilliant cascade of color. Put the phone in another room and give your hands something slower to do.\n\nIt's made for nature lovers, outdoor fans and anyone who wants a quiet hour back. Work the reflections one section at a time, then frame it when the last piece is in.\n\n🎣 Still Waters · 500 pieces · 20.5×15 frameable\n📦 Free shipping on all orders\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #StillWaters #JigsawPuzzle #ScreenBreak #SundayReset #MindfulMoments #FishingArt #PuzzleArt #FrameableArt #PuzzleLovers",
+      "tiktok": "Sunday scroll won't let you rest? Still Waters is a 500-piece puzzle of a lone fisherman on a calm lake.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #ScreenBreak #SundayReset #PuzzleTok"
+    },
+    {
+      "id": "goodnight-glow",
+      "type": "identity",
+      "slot": "2026-11-10T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 100 PIECES",
+      "title": "Goodnight Glow",
+      "art": "/home/claude/work/pv/4410146076_art.png",
+      "hands": "/home/claude/work/pv/4410146076_2.jpg",
+      "table": "/home/claude/work/pv/4410146076_1.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4410146076/goodnight-glow-jigsaw-puzzle-100-piece",
+      "buy": "https://www.puzzlevybe.com/listing/4410146076/goodnight-glow-jigsaw-puzzle-100-piece",
+      "price": "$34.99",
+      "size": "17.9×14",
+      "slide2": "100 pieces for a cozy\nfamily puzzle night.",
+      "slide3": "Frame-worthy art once it's done.",
+      "feed_hook": "One last wish\nbefore lights out.",
+      "video_frames": {
+        "hook": "One last\nwish\nbefore\nbedtime.",
+        "hook_sub": "A puzzle for cozy evenings",
+        "points": ["100 pieces, kid-friendly", "Soft, golden bedtime art", "Free shipping"],
+        "cta": "Goodnight Glow"
+      },
+      "instagram": "One last wish before lights out.\n\nGoodnight Glow is a 100-piece puzzle of a little girl gently blowing out her candle for the night, with soft golden light on her curls, her pajamas and her nightstand. It's soulful, Afrocentric art painted in rich, expressive brushstrokes.\n\nThe 100 pieces make it a good fit for kids, beginners and quick sessions, so bring it out for a family puzzle night or wrap it up as a thoughtful gift. Once it's finished, it's ready to frame.\n\n🕯️ Goodnight Glow · 100 pieces · 17.9×14 frameable\n📦 Free shipping\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #GoodnightGlow #JigsawPuzzle #FamilyPuzzleNight #AfrocentricArt #BlackArt #BlackGirlMagic #PuzzleArt #CozyEvenings #GiftsForKids",
+      "tiktok": "One last wish before lights out. Goodnight Glow is a 100-piece puzzle made for cozy family puzzle nights.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #FamilyPuzzleNight #BlackArt #PuzzleTok"
+    }
+  ]
+}
