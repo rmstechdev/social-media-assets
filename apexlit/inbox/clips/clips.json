@@ -50,7 +50,7 @@
     },
     {
       "file": "black-culture-word-search-hf.mp4",
-      "status": "ready",
+      "status": "posted",
       "products": [
         {
           "title": "Black Culture Word Search Puzzles",
@@ -63,7 +63,10 @@
       "caption_notes": "Light, playful tone fits. Facts only from the book page.",
       "ai_generated": true,
       "source": "higgsfield f8f1ca34 (sora2, 2026-02-12)",
-      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked.",
+      "scheduled_for": "2026-11-10T12:15:00-05:00",
+      "buffer_post_id": "6aedd8ad730edf821ad184cb",
+      "media_folder": "apexlit/2026-11-06"
     }
   ]
 }
