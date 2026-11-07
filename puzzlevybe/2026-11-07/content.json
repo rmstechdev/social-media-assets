@@ -1,0 +1,37 @@
+{
+  "batch": "PuzzleVybe 2026-11-07",
+  "brand": "puzzlevybe",
+  "sale": {"label": "FREE SHIPPING", "note": "Free shipping on every order"},
+  "posts": [
+    {
+      "id": "forever-begins-here",
+      "type": "problem_solution",
+      "slot": "2026-11-11T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 500 PIECES",
+      "title": "Forever Begins Here",
+      "art": "/home/claude/work/pv/4346095633_art.png",
+      "hands": "/home/claude/work/pv/4346095633_2.jpg",
+      "table": "/home/claude/work/pv/4346095633_1.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4346095633/forever-begins-here-jigsaw-puzzle-500",
+      "buy": "https://www.puzzlevybe.com/listing/4346095633/forever-begins-here-jigsaw-puzzle-500",
+      "price": "$44.99",
+      "size": "20.5×15",
+      "slide2": "Piece it together with\nsomeone you love.",
+      "slide3": "Finish it, then frame it.",
+      "feed_problem": "Anniversary coming up?\nSkip another card.",
+      "feed_answer": "Give them 500 pieces to build together.",
+      "video_frames": {
+        "problem": "Another\nanniversary\ncard?",
+        "why": "Cards get read\nonce, then\nput away.",
+        "answer_label": "TRY THIS INSTEAD",
+        "points": ["500 pieces to share", "Black love, bold color", "Frame it when done"],
+        "cta": "Forever Begins Here"
+      },
+      "instagram": "Anniversary coming up? Skip another card.\n\nForever Begins Here is a 500-piece puzzle of a newlywed couple under a flower-filled gazebo, her bouquet full of color and his hands gently holding hers. It's part of the PuzzleVybe Moments of Us collection, made to celebrate Black love.\n\nA card gets read once. This gives you an evening together, piece by piece, and a finished picture you can frame. It comes in a sturdy box, so it's ready to give for weddings and anniversaries too.\n\n💐 Forever Begins Here · 500 pieces · 20.5×15 frameable\n📦 Free shipping on all orders\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #ForeverBeginsHere #BlackLove #JigsawPuzzle #AnniversaryGift #WeddingGift #PuzzleArt #FrameableArt #CouplesNight #GiftIdeas",
+      "tiktok": "Anniversary coming up? Skip another card. Forever Begins Here is a 500-piece puzzle celebrating Black love, ready to frame when it's done.",
+      "tiktok_tags": "#PuzzleVybe #BlackLove #AnniversaryGift #JigsawPuzzle #PuzzleTok"
+    }
+  ]
+}
