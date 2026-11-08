@@ -1,79 +1,101 @@
 {
-  "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site. 2026-11-01: Scars & Silence and Sweet Heat share Apple Music ID 1872063261; Black Woman Blues has two different cover files (DJ Bombchelle and Slamdino), treated as one album.",
-  "featured": [
-    {
-      "id": "built-in-boston",
-      "title": "Built In Boston",
-      "brand": "DJ Bombchelle",
-      "format": "feed image",
-      "scheduled_for": "2026-10-30T20:45:00-04:00",
-      "buffer_post_id": "6ae2d91402cc66e5339a80ea",
-      "media_folder": "djbombchelle/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "velvet-vibes-vol-1",
-      "title": "Velvet Vibes, Vol. 1: R&B & Neo-Soul Grooves",
-      "brand": "Slamdino Entertainment",
-      "format": "feed image",
-      "scheduled_for": "2026-10-31T20:45:00-04:00",
-      "buffer_post_id": "6ae2d919403488e83c9a1a93",
-      "media_folder": "djbombchelle/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "better-days-vol-1",
-      "title": "Better Days: Uplifting Deep House Anthems Vol. 1",
-      "brand": "DJ Bombchelle",
-      "format": "feed image",
-      "scheduled_for": "2026-11-02T20:45:00-05:00",
-      "buffer_post_id": "6ae2d91dc2255f48b9c95434",
-      "media_folder": "djbombchelle/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "sweet-heat",
-      "title": "Sweet Heat: Uplifting R&B Grooves",
-      "brand": "Slamdino Entertainment",
-      "hook": "Headphones on. Let it warm you up.",
-      "format": "feed image",
-      "scheduled_for": "2026-11-04T20:45:00-05:00",
-      "buffer_post_id": "6ae746f837c1acd2a00a07a3",
-      "media_folder": "djbombchelle/2026-11-01",
-      "created": "2026-11-01"
-    },
-    {
-      "id": "scars-and-silence",
-      "title": "Scars & Silence",
-      "brand": "Slamdino Entertainment",
-      "hook": "Some silences say everything.",
-      "format": "feed image",
-      "scheduled_for": "2026-11-06T20:45:00-05:00",
-      "buffer_post_id": "6ae746f837c1acd2a00a07f1",
-      "media_folder": "djbombchelle/2026-11-01",
-      "created": "2026-11-01"
-    },
-    {
-      "id": "step-and-slide-vol-1",
-      "title": "Step & Slide Sessions, Vol. 1",
-      "brand": "DJ Bombchelle",
-      "hook": "Three on the floor. Room for one more.",
-      "format": "feed image",
-      "scheduled_for": "2026-11-07T20:45:00-05:00",
-      "buffer_post_id": "6aec8cfb368462a0c0e65198",
-      "media_folder": "djbombchelle/2026-11-05",
-      "created": "2026-11-05"
-    },
-    {
-      "id": "soul-lounge-vol-1",
-      "title": "The Soul Lounge, Vol. 1: Neo-Soul & Jazz R&B Grooves",
-      "brand": "DJ Bombchelle",
-      "hook": "Red wine poured. Let the sax take over.",
-      "format": "feed image",
-      "scheduled_for": "2026-11-09T20:45:00-05:00",
-      "buffer_post_id": "6aec8cfbd8fec5bcb2da80a0",
-      "media_folder": "djbombchelle/2026-11-05",
-      "created": "2026-11-05"
-    }
-  ]
+ "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site. 2026-11-01: Scars & Silence and Sweet Heat share Apple Music ID 1872063261; Black Woman Blues has two different cover files (DJ Bombchelle and Slamdino), treated as one album. 2026-11-08: Site rebuilt. The bare domain djbombchellemusic.com now returns 404; www.djbombchellemusic.com serves app.js + catalog.json (59 releases, fields id/title/artist/genre/mood/utility/links/art, covers at /assets/cover-<id>.jpg, no year field). Catalog now also lists other artists (Brodrick Wilson, CALYX, Rob Bobby & Bob, Jamese, Andre Soleil, Urban Jazz Beat Society); only releases crediting DJ Bombchelle, Slamdino Entertainment or Resonant Theory are in rotation. Resonant Theory releases now have covers.",
+ "featured": [
+  {
+   "id": "built-in-boston",
+   "title": "Built In Boston",
+   "brand": "DJ Bombchelle",
+   "format": "feed image",
+   "scheduled_for": "2026-10-30T20:45:00-04:00",
+   "buffer_post_id": "6ae2d91402cc66e5339a80ea",
+   "media_folder": "djbombchelle/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "velvet-vibes-vol-1",
+   "title": "Velvet Vibes, Vol. 1: R&B & Neo-Soul Grooves",
+   "brand": "Slamdino Entertainment",
+   "format": "feed image",
+   "scheduled_for": "2026-10-31T20:45:00-04:00",
+   "buffer_post_id": "6ae2d919403488e83c9a1a93",
+   "media_folder": "djbombchelle/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "better-days-vol-1",
+   "title": "Better Days: Uplifting Deep House Anthems Vol. 1",
+   "brand": "DJ Bombchelle",
+   "format": "feed image",
+   "scheduled_for": "2026-11-02T20:45:00-05:00",
+   "buffer_post_id": "6ae2d91dc2255f48b9c95434",
+   "media_folder": "djbombchelle/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "sweet-heat",
+   "title": "Sweet Heat: Uplifting R&B Grooves",
+   "brand": "Slamdino Entertainment",
+   "hook": "Headphones on. Let it warm you up.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-04T20:45:00-05:00",
+   "buffer_post_id": "6ae746f837c1acd2a00a07a3",
+   "media_folder": "djbombchelle/2026-11-01",
+   "created": "2026-11-01"
+  },
+  {
+   "id": "scars-and-silence",
+   "title": "Scars & Silence",
+   "brand": "Slamdino Entertainment",
+   "hook": "Some silences say everything.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-06T20:45:00-05:00",
+   "buffer_post_id": "6ae746f837c1acd2a00a07f1",
+   "media_folder": "djbombchelle/2026-11-01",
+   "created": "2026-11-01"
+  },
+  {
+   "id": "step-and-slide-vol-1",
+   "title": "Step & Slide Sessions, Vol. 1",
+   "brand": "DJ Bombchelle",
+   "hook": "Three on the floor. Room for one more.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-07T20:45:00-05:00",
+   "buffer_post_id": "6aec8cfb368462a0c0e65198",
+   "media_folder": "djbombchelle/2026-11-05",
+   "created": "2026-11-05"
+  },
+  {
+   "id": "soul-lounge-vol-1",
+   "title": "The Soul Lounge, Vol. 1: Neo-Soul & Jazz R&B Grooves",
+   "brand": "DJ Bombchelle",
+   "hook": "Red wine poured. Let the sax take over.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-09T20:45:00-05:00",
+   "buffer_post_id": "6aec8cfbd8fec5bcb2da80a0",
+   "media_folder": "djbombchelle/2026-11-05",
+   "created": "2026-11-05"
+  },
+  {
+   "id": "unsubscribed-for-the-night",
+   "title": "Unsubscribed for the Night: Late-night moody trap-soul to exhale to",
+   "brand": "DJ Bombchelle",
+   "hook": "Battery's low. So are the lights.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-11T20:45:00-05:00",
+   "buffer_post_id": "6af081a3004e4879a7bf74d7",
+   "media_folder": "djbombchelle/2026-11-08",
+   "created": "2026-11-08"
+  },
+  {
+   "id": "turn-up-the-soca-vol-1",
+   "title": "Turn Up The Soca Vol 1: High-Energy Soca For Parties & Dancing",
+   "brand": "DJ Bombchelle",
+   "hook": "Sun's going down. Turn it up.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-13T20:45:00-05:00",
+   "buffer_post_id": "6af081a4d6bbae6fa1f10984",
+   "media_folder": "djbombchelle/2026-11-08",
+   "created": "2026-11-08"
+  }
+ ]
 }
