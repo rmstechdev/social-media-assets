@@ -76,6 +76,17 @@
       "buffer_post_id": "6aedd8ad730edf821ad184cb",
       "media_folder": "apexlit/2026-11-06",
       "created": "2026-11-06"
+    },
+    {
+      "id": "breaking-into-tech",
+      "page": "https://www.apexlitpublishinggroup.com/books/81-breaking-into-tech-without-a-degree/",
+      "imprint": "TechVerse Technology Books",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-12T12:15:00-05:00",
+      "buffer_post_id": "6af1cd8094b96a154c7fac52",
+      "media_folder": "apexlit/2026-11-09",
+      "created": "2026-11-09"
     }
   ]
 }
