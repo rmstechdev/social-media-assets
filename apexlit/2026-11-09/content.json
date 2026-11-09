@@ -1,0 +1,25 @@
+{"batch": "ApexLit 2026-11-09", "posts": [{
+ "id": "breaking-into-tech",
+ "type": "problem_solution",
+ "slot": "2026-11-12T12:15:00-05:00",
+ "imprint": "TechVerse Technology Books",
+ "imprint_label": "TECHVERSE TECHNOLOGY BOOKS",
+ "title": "Breaking Into Tech Without a Degree",
+ "cover": "covers/breaking-into-tech.png",
+ "page": "https://www.apexlitpublishinggroup.com/books/81-breaking-into-tech-without-a-degree/",
+ "buy": "https://www.amazon.com/dp/B0HP4J6SS8",
+ "theme": {"bg":"#0a1730","panel":"#16305c","fg":"#ffffff","accent":"#f5c242"},
+ "feed_problem": "Want a tech job?\nNo degree yet?",
+ "feed_answer": "Entry paths into help desk, cloud and security",
+ "video_frames": {
+  "problem": "Want into\ntech without\na degree?",
+  "why": "Knowing the paths\nhelps you pick one",
+  "answer_label": "START HERE",
+  "points": ["Help desk & cloud paths", "Cybersecurity paths", "Certs to start with"],
+  "cta": "Find your entry path"
+ },
+ "instagram": "Want to work in tech but don't have a degree?\n\nBreaking Into Tech Without a Degree is a career guide for people who want to start in IT without a degree. It explores entry paths into IT help desk, cloud and cybersecurity.\n\nIt also covers the certifications to consider as you get started, so you can pick a direction and take a first step.\n\n💻 Breaking Into Tech Without a Degree: IT Help Desk, Cloud, and Cybersecurity Entry Paths, Plus the Certifications to Start With, from TechVerse Technology Books\n📖 Get it: apexlitpublishinggroup.com/books/81-breaking-into-tech-without-a-degree/\n🔗 Link in bio",
+ "instagram_tags": "#TechVerseBooks #BreakingIntoTech #CareerChange #ITCareers #HelpDesk #CloudComputing #Cybersecurity #ITCertifications #TechJobs #NoDegreeRequired",
+ "tiktok": "No degree? These are entry paths into IT help desk, cloud and cybersecurity, plus the certifications to start with.",
+ "tiktok_tags": "#TechVerseBooks #BreakingIntoTech #ITCareers #CareerChange #TechTok"
+}]}
