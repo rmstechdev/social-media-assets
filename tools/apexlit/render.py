@@ -121,8 +121,8 @@ def feed_image(p, out):
 
     plate = logo_plate(46)
     c.alpha_composite(plate, (M, H - plate.height - 40))
-    url = "apexlitpublishinggroup.com"
-    uf = font("sans-med", 26)
+    url = p.get("site_label", "apexlitpublishinggroup.com")
+    uf = font("sans-med", 30)
     d.text((W - M - d.textlength(url, font=uf), H - 40 - plate.height / 2 - 18), url, font=uf, fill=hexc(t.get("panel_fg", t["fg"])))
     c.convert("RGB").save(out, quality=92)
 
@@ -201,7 +201,10 @@ def video(p, out):
         bx0, by0 = (W - tw) / 2 - 44, y + 40
         d.rounded_rectangle([bx0, by0, bx0 + tw + 88, by0 + 96], 48, fill=acc[:3] + (int(255 * a),))
         d.text(((W - tw) / 2, by0 + 18), txt, font=lf, fill=bg[:3] + (int(255 * a),))
-        py = min(by0 + 150, SAFE_BOTTOM - plate.height)
+        site = p.get("site_label", "apexlitpublishinggroup.com")
+        sf = font("sans-med", 38)
+        d.text(((W - d.textlength(site, font=sf)) / 2, by0 + 122), site, font=sf, fill=fg[:3] + (int(255 * a),))
+        py = min(by0 + 200, SAFE_BOTTOM - plate.height)
         im.alpha_composite(plate, ((W - plate.width) // 2, int(py)))
         return im
 

@@ -52,9 +52,9 @@ def pill(d, x, y, text, fnt, bgc, fgc, pad=(28, 14), align="left", width=0):
     return x, y, x + w, y + h
 
 
-def wordmark(d, x, y, size, color, align="left", width=0):
+def wordmark(d, x, y, size, color, align="left", width=0, text="PuzzleVybe"):
     f = pf("Bold", size)
-    t = "PuzzleVybe"
+    t = text
     if align == "center":
         x = x + (width - d.textlength(t, font=f)) / 2
     d.text((x, y), t, font=f, fill=color)
@@ -67,6 +67,9 @@ def slide1(p, sale, out):
     d = ImageDraw.Draw(c)
     stripes(d, W)
     tracked(d, (M, 70), p["imprint_label"], pf("Medium", 26), hexc(T["teal"]), track=4)
+    site = p.get("site_label", "PUZZLEVYBE.COM")
+    sf = pf("Bold", 26)
+    tracked(d, (W - M - d.textlength(site, font=sf) - 4 * len(site), 70), site, sf, hexc(T["accent"]), track=4)
     if p["type"] == "problem_solution":
         y = text_block(d, (M, 112), p["feed_problem"], pf("Bold", 62), hexc(T["fg"]), W - 2 * M, spacing=1.15)
         d.rectangle([M, y + 22, M + 40, y + 27], fill=hexc(T["accent"]))
@@ -182,7 +185,8 @@ def video(p, sale, out):
         y += 120
         pill(d, 0, y, "Link in bio", pf("Bold", 44), acc[:3] + (int(255 * a),), bg[:3] + (int(255 * a),),
              pad=(44, 18), align="center", width=W)
-        wordmark(d, 0, y + 150, 46, fg[:3] + (int(255 * a),), align="center", width=W)
+        wordmark(d, 0, y + 150, 46, fg[:3] + (int(255 * a),), align="center", width=W,
+                 text=p.get("site_label_video", "puzzlevybe.com"))
         return im
 
     if p["type"] == "problem_solution":
