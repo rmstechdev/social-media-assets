@@ -1,5 +1,5 @@
 {
- "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site. 2026-11-01: Scars & Silence and Sweet Heat share Apple Music ID 1872063261; Black Woman Blues has two different cover files (DJ Bombchelle and Slamdino), treated as one album. 2026-11-08: Site rebuilt. The bare domain djbombchellemusic.com now returns 404; www.djbombchellemusic.com serves app.js + catalog.json (59 releases, fields id/title/artist/genre/mood/utility/links/art, covers at /assets/cover-<id>.jpg, no year field). Catalog now also lists other artists (Brodrick Wilson, CALYX, Rob Bobby & Bob, Jamese, Andre Soleil, Urban Jazz Beat Society); only releases crediting DJ Bombchelle, Slamdino Entertainment or Resonant Theory are in rotation. Resonant Theory releases now have covers.",
+ "notes": "Album catalog comes from the site bundle at https://djbombchellemusic.com (see task prompt). Site link issues found 2026-10-29: Sweet Heat and Hip Hop For Jazz Lovers Vol 5 share a Spotify link; several albums share Apple Music IDs; Resonant Theory albums have no covers on the site. 2026-11-01: Scars & Silence and Sweet Heat share Apple Music ID 1872063261; Black Woman Blues has two different cover files (DJ Bombchelle and Slamdino), treated as one album. 2026-11-08: Site rebuilt. The bare domain djbombchellemusic.com now returns 404; www.djbombchellemusic.com serves app.js + catalog.json (59 releases, fields id/title/artist/genre/mood/utility/links/art, covers at /assets/cover-<id>.jpg, no year field). Catalog now also lists other artists (Brodrick Wilson, CALYX, Rob Bobby & Bob, Jamese, Andre Soleil, Urban Jazz Beat Society); only releases crediting DJ Bombchelle, Slamdino Entertainment or Resonant Theory are in rotation. Resonant Theory releases now have covers. 2026-11-10: Site now has a sitemap.xml with 61 release pages (/albums/<slug>; albums use JSON-LD MusicAlbum, singles use MusicRecording) and 7 collections. All 61 have unique covers.",
  "featured": [
   {
    "id": "built-in-boston",
@@ -96,6 +96,18 @@
    "buffer_post_id": "6af081a4d6bbae6fa1f10984",
    "media_folder": "djbombchelle/2026-11-08",
    "created": "2026-11-08"
+  },
+  {
+   "id": "rap-instrumentals-vol-2-southern-rap-edition",
+   "title": "Rap Instrumentals Vol. 2: Southern Rap Edition",
+   "brand": "Resonant Theory",
+   "page": "https://www.djbombchellemusic.com/albums/rap-instrumentals-vol-2-southern-rap-edition",
+   "hook": "Windows down. Let the trunk talk.",
+   "format": "feed image",
+   "scheduled_for": "2026-11-14T20:45:00-05:00",
+   "buffer_post_id": "6af323ef9a6b93e087459c76",
+   "media_folder": "djbombchelle/2026-11-10",
+   "created": "2026-11-10"
   }
  ]
 }
