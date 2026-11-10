@@ -1,0 +1,35 @@
+{
+  "batch": "PuzzleVybe 2026-11-10",
+  "brand": "puzzlevybe",
+  "sale": {"label": "FREE SHIPPING", "note": "Free shipping on every order"},
+  "posts": [
+    {
+      "id": "loyal-bond",
+      "type": "identity",
+      "slot": "2026-11-13T19:15:00-05:00",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 100 PIECES",
+      "title": "Loyal Bond",
+      "art": "/tmp/claude-0/pv/img/1862048689_art.png",
+      "hands": "/tmp/claude-0/pv/img/1862048689_2.jpg",
+      "table": "/tmp/claude-0/pv/img/1862048689_1.jpg",
+      "page": "https://www.puzzlevybe.com/listing/1862048689/loyal-bond-jigsaw-puzzle-100-piece",
+      "buy": "https://www.puzzlevybe.com/listing/1862048689/loyal-bond-jigsaw-puzzle-100-piece",
+      "price": "$34.99",
+      "size": "17.9×14",
+      "slide2": "100 pieces, one\nloyal friend at a time.",
+      "slide3": "Finish it, then frame it.",
+      "feed_hook": "He's got your back.\nYou've got his.",
+      "video_frames": {
+        "hook": "He's got\nyour back.\nYou've\ngot his.",
+        "hook_sub": "A puzzle for dog lovers",
+        "points": ["100 interlocking pieces", "Bold, vivid colors", "Free shipping"],
+        "cta": "Loyal Bond"
+      },
+      "instagram": "He's got your back. You've got his.\n\nLoyal Bond is a 100-piece jigsaw puzzle of a man and his dog, cheek to cheek in a bold portrait set against a bright, painterly backdrop of pink, blue and gold. It's frameable when finished.\n\nIt's made for dog lovers and anyone who knows that kind of trust. Do it on a quiet evening with the dog at your feet, or give it to the dog person in your life just because.\n\n🐾 Loyal Bond · 100 pieces · 17.9×14 frameable\n📦 Free shipping\n🛒 Shop: puzzlevybe.com\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #LoyalBond #JigsawPuzzle #DogLovers #DogDad #ManAndDog #BlackArt #PuzzleArt #FrameableArt #GiftsForDogLovers",
+      "tiktok": "He's got your back. You've got his. Loyal Bond is a 100-piece puzzle of a man and his dog, frameable when finished.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #DogLovers #BlackArt #PuzzleTok"
+    }
+  ]
+}
