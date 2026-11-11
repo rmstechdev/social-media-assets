@@ -26,7 +26,7 @@
     },
     {
       "file": "coloring-night-vertical-hf.mp4",
-      "status": "ready",
+      "status": "posted",
       "products": [],
       "imprint": "Cocoa Butter Books",
       "type": "identity",
@@ -34,7 +34,10 @@
       "caption_notes": "Brand-level post about coloring nights with friends; point to Cocoa Butter coloring books in general (link in bio). Do not name a specific book as the one shown. Space it at least 2 weeks from coloring-night-table-hf.",
       "ai_generated": true,
       "source": "higgsfield 0cdb799b (sora2, 2026-02-19)",
-      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
+      "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked.",
+      "scheduled_for": "2026-11-14T12:15:00-05:00",
+      "buffer_post_id": "6af47084dfd0aa432400814e",
+      "media_folder": "apexlit/2026-11-11"
     },
     {
       "file": "coloring-night-table-hf.mp4",
@@ -43,7 +46,7 @@
       "imprint": "Cocoa Butter Books",
       "type": "identity",
       "shows": "Four women coloring around a table with candles, wine and a charcuterie board; close-ups of coloring pages. No specific book is identifiable. Landscape clip on a blurred 9:16 background.",
-      "caption_notes": "Same rules as coloring-night-vertical-hf. Space them at least 2 weeks apart.",
+      "caption_notes": "Same rules as coloring-night-vertical-hf. Space them at least 2 weeks apart. Sister clip coloring-night-vertical-hf is scheduled 2026-11-14, so do not use this one before 2026-11-28.",
       "ai_generated": true,
       "source": "higgsfield 60d38790 (sora2, 2026-02-19)",
       "review": "Higgsfield AI video, reviewed 2026-11-03: product art matches the real cover/listing; original audio removed because speech could not be checked."
