@@ -74,7 +74,7 @@ def feed(p, out):
     shadow_paste(c, cv, ((W - size) // 2, cy))
     by = FH - 88
     f = pf("Bold", 30)
-    t = p.get("feed_cta", "STREAM IT NOW")
+    t = p.get("feed_cta", "DJBOMBCHELLEMUSIC.COM")
     tracked(d, (M, by), t, f, acc, track=3)
     f2 = pf("Medium", 26)
     t2 = p.get("feed_sub", "Spotify · Apple Music")
@@ -117,7 +117,7 @@ def reel(p, out):
         y = 560 + 920 + 90
         tracked(d, (0, y), v.get("cta", "STREAM IT NOW"), pf("Bold", 44), acc[:3] + (int(255 * cta_a),),
                 track=6, align="center", width=W)
-        text_block(d, (70, y + 70), v.get("cta_sub", "Spotify · Apple Music · Link in bio"), pf("Medium", 36),
+        text_block(d, (70, y + 70), v.get("cta_sub", "djbombchellemusic.com"), pf("Medium", 36),
                    white + (int(220 * cta_a),), W - 140, align="center")
         return im
 

@@ -87,12 +87,13 @@ def slide1(p, sale, out):
     was = p.get("price_was", "")
     px = W - M - d.textlength(p["price"], font=f2)
     d.text((px, by + 2), p["price"], font=f2, fill=hexc(T["fg"]))
-    sub = (f"was {was}  ·  " if was else "") + "free shipping"
+    free = p.get("free_shipping", "FREE SHIPPING" in sale.get("label", "").upper())
+    sub = "  ·  ".join(x for x in [f"was {was}" if was else "", "free shipping" if free else ""] if x)
     d.text((W - M - d.textlength(sub, font=f3), by + 48), sub, font=f3, fill=hexc(T["fg"]))
     c.convert("RGB").save(out, quality=92)
 
 
-def photo_slide(photo, caption, sub, out):
+def photo_slide(photo, caption, sub, out, site="PUZZLEVYBE.COM"):
     W, H = 1080, 1350
     c = Image.new("RGBA", (W, H), hexc(T["bg"]))
     ph = load(photo).resize((W, W), Image.LANCZOS)
@@ -101,6 +102,8 @@ def photo_slide(photo, caption, sub, out):
     stripes(d, W, y=W, h=10)
     text_block(d, (72, W + 50), caption, pf("Bold", 44), hexc(T["fg"]), W - 144, spacing=1.2)
     tracked(d, (72, H - 70), sub, pf("Medium", 24), hexc(T["accent"]), track=4)
+    sf = pf("Bold", 24)
+    tracked(d, (W - 72 - d.textlength(site, font=sf) - 4 * len(site), H - 70), site, sf, hexc(T["fg"]), track=4)
     c.convert("RGB").save(out, quality=92)
 
 
@@ -218,8 +221,10 @@ def video(p, sale, out):
 
 def render_post(p, sale, out_dir, with_video=True):
     slide1(p, sale, f"{out_dir}/{p['id']}-1.jpg")
-    photo_slide(p["hands"], p["slide2"], "PIECE BY PIECE", f"{out_dir}/{p['id']}-2.jpg")
-    photo_slide(p["table"], p["slide3"], "FROM PUZZLE TO WALL ART", f"{out_dir}/{p['id']}-3.jpg")
+    photo_slide(p["hands"], p["slide2"], "PIECE BY PIECE", f"{out_dir}/{p['id']}-2.jpg",
+                site=p.get("site_label", "PUZZLEVYBE.COM"))
+    photo_slide(p["table"], p["slide3"], "FROM PUZZLE TO WALL ART", f"{out_dir}/{p['id']}-3.jpg",
+                site=p.get("site_label", "PUZZLEVYBE.COM"))
     if with_video:
         video(p, sale, f"{out_dir}/{p['id']}-reel.mp4")
 
