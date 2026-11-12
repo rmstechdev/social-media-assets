@@ -89,6 +89,28 @@
       "buffer_post_id": "6af31e56ab43be496989dc19",
       "media_folder": "puzzlevybe/2026-11-10",
       "created": "2026-11-10"
+    },
+    {
+      "id": "coastal-embrace",
+      "page": "https://www.puzzlevybe.com/listing/1880188161/coastal-embrace-jigsaw-puzzle-100-piece",
+      "type": "problem_solution",
+      "format": "carousel",
+      "pieces": 300,
+      "scheduled_for": "2026-11-15T19:15:00-05:00",
+      "buffer_post_id": "6af5c21afcb998ff11b7ee49",
+      "media_folder": "puzzlevybe/2026-11-12",
+      "created": "2026-11-12"
+    },
+    {
+      "id": "grandfathers-storytime",
+      "page": "https://www.puzzlevybe.com/listing/4615314238/grandfathers-story-time-jigsaw-puzzle",
+      "type": "identity",
+      "format": "reel",
+      "pieces": 500,
+      "scheduled_for": "2026-11-17T19:15:00-05:00",
+      "buffer_post_id": "6af5c21aa7aa7358fdac5b18",
+      "media_folder": "puzzlevybe/2026-11-12",
+      "created": "2026-11-12"
     }
   ]
 }
