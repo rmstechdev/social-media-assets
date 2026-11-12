@@ -1,0 +1,73 @@
+{
+  "batch": "PuzzleVybe 2026-11-12",
+  "brand": "puzzlevybe",
+  "sale": {"label": "15% OFF · ENDS NOV 30", "note": "Per-post sale: see each post's sale field"},
+  "posts": [
+    {
+      "id": "coastal-embrace",
+      "type": "problem_solution",
+      "slot": "2026-11-15T19:15:00-05:00",
+      "format": "carousel",
+      "sale": {"label": "15% OFF · ENDS NOV 30", "note": "15% off through Nov 30 (listing end_epoch 1796101199)"},
+      "free_shipping": false,
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 300 PIECES",
+      "title": "Coastal Embrace",
+      "art": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/1880188161_art.png",
+      "hands": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/1880188161/img2.jpg",
+      "table": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/1880188161/img3.jpg",
+      "page": "https://www.puzzlevybe.com/listing/1880188161/coastal-embrace-jigsaw-puzzle-100-piece",
+      "buy": "https://www.puzzlevybe.com",
+      "price": "$29.74",
+      "price_was": "$34.99",
+      "size": "17.9×14",
+      "slide2": "Two people, one table,\nthree hundred pieces.",
+      "slide3": "Finish it, then frame it.",
+      "feed_problem": "Another night of\nscrolling side by side?",
+      "feed_answer": "Build this one together instead.",
+      "video_frames": {
+        "problem": "Another\nnight of\nscrolling?",
+        "why": "Side by side,\nbut not really\ntogether.",
+        "answer_label": "TRY THIS INSTEAD",
+        "points": ["300 pieces for two", "A seaside love scene", "15% off through Nov 30"],
+        "cta": "Coastal Embrace"
+      },
+      "instagram": "Another night of scrolling side by side? Try this instead.\n\nCoastal Embrace is a 300-piece jigsaw puzzle of a couple standing close, arms around each other, looking out over a bright blue sea. She wears a straw hat and a floral dress. It's frameable when finished.\n\nPut the phones away, pour something warm and build it together. It also makes a sweet anniversary gift, or a just-because one.\n\n🌊 Coastal Embrace · 300 pieces · 17.9×14 frameable\n🏷️ 15% off through Nov 30\n🛒 Shop: puzzlevybe.com\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #CoastalEmbrace #300PiecePuzzle #JigsawPuzzle #BlackLove #CouplesNight #AnniversaryGift #ScreenFree #FrameableArt #OceanArt",
+      "tiktok": "Put the phones away and build Coastal Embrace together: a 300-piece puzzle of a couple by the sea, frameable when finished.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #BlackLove #CouplesNight #PuzzleTok"
+    },
+    {
+      "id": "grandfathers-storytime",
+      "type": "identity",
+      "slot": "2026-11-17T19:15:00-05:00",
+      "format": "reel",
+      "sale": {"label": "25% OFF · ENDS NOV 17", "note": "25% off through Nov 17 (listing end_epoch 1794977999); free shipping per listing"},
+      "free_shipping": true,
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 500 PIECES",
+      "title": "Grandfather's Storytime",
+      "art": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/4615314238_art.png",
+      "hands": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/4615314238/img6.jpg",
+      "table": "/tmp/claude-0/-home-claude-social-media-assets/b6af0d2f-201c-5dad-a859-7211df7bcb50/scratchpad/pv/dl/4615314238/img8.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4615314238/grandfathers-story-time-jigsaw-puzzle",
+      "buy": "https://www.puzzlevybe.com",
+      "price": "$33.74",
+      "price_was": "$44.99",
+      "size": "20.5×15",
+      "slide2": "Built together,\none piece at a time.",
+      "slide3": "Finish it, then frame it.",
+      "feed_hook": "The stories he tells\nare the ones you keep.",
+      "video_frames": {
+        "hook": "The stories\nhe tells\nare the ones\nyou keep.",
+        "hook_sub": "A puzzle for family time",
+        "points": ["500 interlocking pieces", "25% off through Nov 17", "Free shipping"],
+        "cta": "Grandfather's Storytime"
+      },
+      "instagram": "The stories he tells are the ones you keep.\n\nGrandfather's Storytime is a 500-piece jigsaw puzzle of a grandfather and his granddaughter smiling as they read a book together, set against a patchwork of colorful quilt squares. It's frameable when finished.\n\nIt's made for family time: grandparents and grandkids at the same table, sharing a story while the picture comes together. It's a warm gift for a grandparent, a new retiree, or just because.\n\n📖 Grandfather's Storytime · 500 pieces · 20.5×15 frameable\n🏷️ 25% off through Nov 17\n📦 Free shipping\n🛒 Shop: puzzlevybe.com\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #GrandfathersStorytime #500PiecePuzzle #JigsawPuzzle #FamilyTime #Grandparents #BlackFamily #BlackArt #FrameableArt #PuzzleArt",
+      "tiktok": "The stories he tells are the ones you keep. Grandfather's Storytime is a 500-piece puzzle made for family time, frameable when finished.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #FamilyTime #BlackFamily #PuzzleTok"
+    }
+  ]
+}
