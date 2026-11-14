@@ -1,0 +1,39 @@
+{
+  "batch": "PuzzleVybe 2026-11-14",
+  "brand": "puzzlevybe",
+  "sale": {"label": "FREE SHIPPING", "note": "500-piece 25% sale ends Nov 17 (end_epoch 1794977999), before this slot; listing says shipping is free"},
+  "posts": [
+    {
+      "id": "riverside-glow",
+      "type": "problem_solution",
+      "slot": "2026-11-18T18:15:00-05:00",
+      "format": "carousel",
+      "imprint": "PuzzleVybe",
+      "imprint_label": "PUZZLEVYBE · 500 PIECES",
+      "title": "Riverside Glow",
+      "art": "/tmp/claude-0/pv/4615323852_art.png",
+      "hands": "/tmp/claude-0/pv/img/rg_6.jpg",
+      "table": "/tmp/claude-0/pv/img/rg_8.jpg",
+      "page": "https://www.puzzlevybe.com/listing/4615323852/riverside-glow-jigsaw-puzzle-500-pcs",
+      "buy": "https://www.puzzlevybe.com",
+      "price": "$44.99",
+      "free_shipping": true,
+      "size": "20.5×15",
+      "slide2": "Sort the sky, the leaves\nand the lights on the water.",
+      "slide3": "Finish it, then frame it.",
+      "feed_problem": "Evenings lost to\nthe endless scroll?",
+      "feed_answer": "Trade it for a city at sunset.",
+      "video_frames": {
+        "problem": "Evenings\nlost to the\nscroll?",
+        "why": "Your eyes need\na slower view.",
+        "answer_label": "TRY THIS INSTEAD",
+        "points": ["500 wooden pieces", "Sunset on the river", "Free shipping"],
+        "cta": "Riverside Glow"
+      },
+      "instagram": "Evenings lost to the scroll? Trade it for a slower view.\n\nRiverside Glow is a 500-piece wooden jigsaw puzzle of a city skyline at sunset, its towers mirrored in a calm river dotted with sailboats, with red and gold maples arching over a lamp-lit path. It's frameable when finished.\n\nPut the phone down, make some tea and sort the sky, the leaves and the lights on the water one piece at a time. It's also a thoughtful new-home or just-because gift for anyone who loves a city view.\n\n🌇 Riverside Glow · 500 pieces · 20.5×15 frameable\n📦 Free shipping\n🛒 Shop: puzzlevybe.com\n🔗 Link in bio",
+      "instagram_tags": "#PuzzleVybe #RiversideGlow #500PiecePuzzle #JigsawPuzzle #WoodenPuzzle #CitySkyline #FallColors #ScreenFree #FrameableArt #PuzzleArt",
+      "tiktok": "Trade the scroll for a slower view: Riverside Glow is a 500-piece wooden puzzle of a city skyline at sunset, frameable when finished.",
+      "tiktok_tags": "#PuzzleVybe #JigsawPuzzle #CitySkyline #ScreenFree #PuzzleTok"
+    }
+  ]
+}
