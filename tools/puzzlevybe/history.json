@@ -111,6 +111,17 @@
       "buffer_post_id": "6af5c21aa7aa7358fdac5b18",
       "media_folder": "puzzlevybe/2026-11-12",
       "created": "2026-11-12"
+    },
+    {
+      "id": "riverside-glow",
+      "page": "https://www.puzzlevybe.com/listing/4615323852/riverside-glow-jigsaw-puzzle-500-pcs",
+      "type": "problem_solution",
+      "format": "carousel",
+      "pieces": 500,
+      "scheduled_for": "2026-11-18T18:15:00-05:00",
+      "buffer_post_id": "6af86461c5b364e062f3a0b6",
+      "media_folder": "puzzlevybe/2026-11-14",
+      "created": "2026-11-14"
     }
   ]
 }
