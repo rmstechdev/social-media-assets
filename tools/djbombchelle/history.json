@@ -108,6 +108,30 @@
    "buffer_post_id": "6af323ef9a6b93e087459c76",
    "media_folder": "djbombchelle/2026-11-10",
    "created": "2026-11-10"
+  },
+  {
+   "id": "the-end-of-a-bad-day",
+   "title": "The End of a Bad Day",
+   "brand": "Slamdino Entertainment",
+   "page": "https://www.djbombchellemusic.com/albums/the-end-of-a-bad-day",
+   "hook": "Shoes off. Record on. Let today go.",
+   "scheduled_for": "2026-11-16T19:45:00-05:00",
+   "buffer_post_id": "6af9bbd0918fe79d2ee92461",
+   "format": "feed image",
+   "media_folder": "djbombchelle/2026-11-15",
+   "created": "2026-11-15"
+  },
+  {
+   "id": "subscribed-for-the-morning",
+   "title": "Subscribed for the Morning",
+   "brand": "DJ Bombchelle",
+   "page": "https://www.djbombchellemusic.com/albums/subscribed-for-the-morning",
+   "hook": "Coffee up. Sun up. City's already moving.",
+   "scheduled_for": "2026-11-17T19:45:00-05:00",
+   "buffer_post_id": "6af9bbd0e86a5789a6148d4f",
+   "format": "feed image",
+   "media_folder": "djbombchelle/2026-11-15",
+   "created": "2026-11-15"
   }
  ]
 }
