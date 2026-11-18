@@ -1,0 +1,37 @@
+{
+ "batch": "ApexLit 2026-11-18",
+ "posts": [
+  {
+   "id": "black-college-drumline",
+   "type": "identity",
+   "slot": "2026-11-21T12:15:00-05:00",
+   "imprint": "Cocoa Butter Books",
+   "imprint_label": "COCOA BUTTER BOOKS",
+   "title": "Black College Drumline",
+   "cover": "covers/drumline.png",
+   "page": "https://www.apexlitpublishinggroup.com/books/26-black-college-drumline/",
+   "buy": "https://www.amazon.com/dp/B0CNGKM2QX",
+   "theme": {
+    "bg": "#3b2218",
+    "panel": "#8a5a3c",
+    "fg": "#fbf3ea",
+    "accent": "#f0c9a0"
+   },
+   "feed_hook": "Hear the drums?\nNow color the culture.",
+   "video_frames": {
+    "hook": "The band\nhits the\nfield.",
+    "hook_sub": "Now color the culture.",
+    "points": [
+     "Black college drumline",
+     "Music and performance",
+     "Your colors, your band"
+    ],
+    "cta": "Find it at the link in bio"
+   },
+   "instagram": "The drums kick in and the whole stand feels it.\n\nBlack College Drumline is an adult coloring book that celebrates Black college drumline culture, made for anyone who loves the music and the show of a college band. It's Book 9 in the Multicultural Adult Coloring Books series.\n\nPut on your favorite band cadence, grab your pencils and bring your own colors to a theme rooted in music and performance. Find it on Amazon, or as a printable PDF on Etsy.\n\n🥁 Black College Drumline: Celebrating the Culture of Drumline Bands, from Cocoa Butter Books\n📖 Get it: apexlitpublishinggroup.com/books/26-black-college-drumline/\n🔗 Link in bio",
+   "instagram_tags": "#CocoaButterBooks #BlackCollegeDrumline #Drumline #HBCUBand #MarchingBand #AdultColoringBook #BlackCulture #ColoringForAdults #BlackArt #ColoringTime",
+   "tiktok": "Black college drumline culture, ready for your colors. Black College Drumline from Cocoa Butter Books, link in bio.",
+   "tiktok_tags": "#CocoaButterBooks #Drumline #HBCUBand #AdultColoring #BlackCulture"
+  }
+ ]
+}
