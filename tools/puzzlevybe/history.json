@@ -133,6 +133,39 @@
       "buffer_post_id": "6afc59082fa84d383f3d3884",
       "media_folder": "puzzlevybe/2026-11-17",
       "created": "2026-11-17"
+    },
+    {
+      "id": "resilient-bloom",
+      "page": "https://www.puzzlevybe.com/listing/4308469961/resilient-bloom-jigsaw-puzzle-500-piece",
+      "type": "identity",
+      "format": "carousel",
+      "pieces": 500,
+      "scheduled_for": "2026-11-22T19:15:00-05:00",
+      "buffer_post_id": "6afefc5fb3b455c2f56fe636",
+      "media_folder": "puzzlevybe/2026-11-19",
+      "created": "2026-11-19"
+    },
+    {
+      "id": "coastal-escape",
+      "page": "https://www.puzzlevybe.com/listing/4310367692/coastal-escape-jigsaw-puzzle-500-piece",
+      "type": "problem_solution",
+      "format": "reel",
+      "pieces": 500,
+      "scheduled_for": "2026-11-24T19:15:00-05:00",
+      "buffer_post_id": "6afefc5ffd08883b646b9211",
+      "media_folder": "puzzlevybe/2026-11-19",
+      "created": "2026-11-19"
+    },
+    {
+      "id": "healing-hands",
+      "page": "https://www.puzzlevybe.com/listing/1879113561/healing-hands-jigsaw-puzzle-100-piece",
+      "type": "problem_solution",
+      "format": "carousel",
+      "pieces": 300,
+      "scheduled_for": "2026-11-25T18:15:00-05:00",
+      "buffer_post_id": "6afefc60abf4ba608b75bff9",
+      "media_folder": "puzzlevybe/2026-11-19",
+      "created": "2026-11-19"
     }
   ]
 }
