@@ -142,6 +142,39 @@
       "buffer_post_id": "6afdaad9275aba8f453d3f41",
       "media_folder": "apexlit/2026-11-18",
       "created": "2026-11-18"
+    },
+    {
+      "id": "grade-3-reading-comprehension",
+      "page": "https://www.apexlitpublishinggroup.com/books/17-grade-3-reading-comprehension-workbook/",
+      "imprint": "Bright Minds Prep",
+      "type": "problem_solution",
+      "format": "reel",
+      "scheduled_for": "2026-11-25T12:15:00-05:00",
+      "buffer_post_id": "6b0442b1d35c00e2ba7436eb",
+      "media_folder": "apexlit/2026-11-23",
+      "created": "2026-11-23"
+    },
+    {
+      "id": "grandmas-kitchen",
+      "page": "https://www.apexlitpublishinggroup.com/books/82-grandmas-kitchen/",
+      "imprint": "ApexLit Publishing",
+      "type": "identity",
+      "format": "reel",
+      "scheduled_for": "2026-11-26T09:15:00-05:00",
+      "buffer_post_id": "6b0442b2f3aecf260a99907b",
+      "media_folder": "apexlit/2026-11-23",
+      "created": "2026-11-23"
+    },
+    {
+      "id": "coloring-night-table-hf",
+      "page": "https://www.apexlitpublishinggroup.com/imprints/cocoa-butter-books/",
+      "imprint": "Cocoa Butter Books",
+      "type": "identity",
+      "format": "inbox_reel",
+      "scheduled_for": "2026-11-28T12:15:00-05:00",
+      "buffer_post_id": "6b0442b3ab9184f298a5fd92",
+      "media_folder": "apexlit/2026-11-23",
+      "created": "2026-11-23"
     }
   ]
 }
