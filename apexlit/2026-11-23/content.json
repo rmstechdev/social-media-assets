@@ -1,0 +1,50 @@
+{"batch": "ApexLit 2026-11-23", "posts": [
+{
+ "id": "grade-3-reading-comprehension",
+ "type": "problem_solution",
+ "slot": "2026-11-25T12:15:00-05:00",
+ "imprint": "Bright Minds Prep",
+ "imprint_label": "BRIGHT MINDS PREP",
+ "title": "Grade 3 Reading Comprehension Workbook",
+ "cover": "covers/grade3.png",
+ "page": "https://www.apexlitpublishinggroup.com/books/17-grade-3-reading-comprehension-workbook/",
+ "buy": "https://www.amazon.com/dp/B0H6P7ZF4Q",
+ "theme": {"bg":"#1f3a5f","panel":"#f6c33b","fg":"#ffffff","accent":"#f6c33b","panel_fg":"#1f3a5f"},
+ "feed_problem": "Reads the words,\nmisses the meaning?",
+ "feed_answer": "40 passages with questions for 3rd grade readers",
+ "video_frames": {
+  "problem": "Reads it,\nbut can't\nexplain it?",
+  "why": "Understanding grows\nwith steady practice",
+  "answer_label": "START HERE",
+  "points": ["40 reading passages", "Vocabulary questions", "Evidence-based answers"],
+  "cta": "Practice reading together"
+ },
+ "instagram": "Your third grader reads every word, then can't tell you what the story was about?\n\nGrade 3 Reading Comprehension Workbook is a reading practice book for third graders. It has 40 reading passages with questions on vocabulary, critical thinking and finding evidence in the text.\n\nProgress trackers help you see how far they've come, and the answer key makes checking work simple. Read a passage together, talk it through, and build from there.\n\n📚 Grade 3 Reading Comprehension Workbook: 40 Reading Passages with Vocabulary, Critical Thinking, Evidence-Based Questions, Progress Trackers, and Answer Key, from Bright Minds Prep\n📖 Get it: apexlitpublishinggroup.com/books/17-grade-3-reading-comprehension-workbook/\n🔗 Link in bio",
+ "instagram_tags": "#BrightMindsPrep #ReadingComprehension #3rdGradeReading #ThirdGrade #ReadingPractice #ElementaryReading #Homeschool #LearningTogether #KidsWorkbook",
+ "tiktok": "Reads every word but misses the meaning? This 3rd grade workbook has 40 passages with vocabulary and evidence-based questions.",
+ "tiktok_tags": "#BrightMindsPrep #ReadingComprehension #3rdGrade #Homeschool #ParentTips"
+},
+{
+ "id": "grandmas-kitchen",
+ "type": "identity",
+ "slot": "2026-11-26T09:15:00-05:00",
+ "imprint": "ApexLit Publishing",
+ "imprint_label": "APEXLIT PUBLISHING",
+ "title": "Grandma's Kitchen",
+ "cover": "covers/grandma.png",
+ "page": "https://www.apexlitpublishinggroup.com/books/82-grandmas-kitchen/",
+ "buy": "https://www.amazon.com/dp/B0HPCXV8XR",
+ "theme": {"bg":"#36060d","panel":"#7a101d","fg":"#fbfaf8","accent":"#e8b4a0"},
+ "feed_hook": "Her recipes.\nHer stories. Kept.",
+ "video_frames": {
+  "hook": "Write down\nher recipes\nwhile you can.",
+  "hook_sub": "And the stories behind them.",
+  "points": ["Family recipes", "The stories behind them", "Passed down for years"],
+  "cta": "Find it at the link in bio"
+ },
+ "instagram": "Some recipes were never written down. They live in a pinch of this and a story about who taught her.\n\nGrandma's Kitchen is a family recipe keepsake journal for anyone who wants to save the family's cooking in one place. It has room to record your family recipes and the stories that go with them.\n\nSit down with Grandma, an aunt or your mom, write it all down together, and make something to pass down through generations.\n\n🍲 Grandma's Kitchen: A Family Recipe Keepsake Journal, from ApexLit Publishing\n📖 Get it: apexlitpublishinggroup.com/books/82-grandmas-kitchen/\n🔗 Link in bio",
+ "instagram_tags": "#ApexLitPublishing #GrandmasKitchen #FamilyRecipes #RecipeJournal #KeepsakeJournal #FamilyHeritage #FamilyTime #HomeCooking #FamilyStories",
+ "tiktok": "Grandma's recipes deserve more than memory. Grandma's Kitchen is a keepsake journal for family recipes and the stories behind them.",
+ "tiktok_tags": "#ApexLitPublishing #FamilyRecipes #RecipeJournal #FamilyHeritage #Keepsake"
+}
+]}
