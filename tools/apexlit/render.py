@@ -234,11 +234,47 @@ def video(p, out):
                 track=8, align="center", width=W)
         return im
 
+    # Product-first opening: the cover is on screen at full size from frame 0, with the
+    # hook/problem above it. The "why" line swaps in over the same layout so the cover never leaves.
+    d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    of, sf = font("serif", 90), font("sans", 44)
+    TOP = 200
+
+    def text_h(text, sub=None):
+        h = len(wrap(d0, text, of, W - 160)) * int(of.size * 1.18)
+        if sub:
+            h += 34 + len(wrap(d0, sub, sf, W - 220)) * int(sf.size * 1.3)
+        return h
+
     if p.get("type") == "problem_solution":
-        segs = [(2.8, seg_problem), (2.4, seg_why), (3.6, lambda s: seg_answer(s, 3.6)),
+        texts = [(v["problem"], None), (v["why"], None)]
+    else:
+        texts = [(v["hook"], v.get("hook_sub"))]
+    cov_top = TOP + 56 + max(text_h(a, b) for a, b in texts) + 50
+    cov_h = max(700, 1580 - cov_top)
+    open_cov = cover_at_height(p["cover"], cov_h)
+    OPEN_TOTAL = 3.4 if len(texts) == 1 else 5.4
+
+    def seg_open(text, sub, t_off):
+        def seg(s):
+            im, d = base()
+            T = t_off + s
+            d.rectangle([0, cov_top + int(cov_h * 0.42), W, H], fill=hexc(t["panel"]))
+            z = 1.0 + 0.05 * (T / OPEN_TOTAL)
+            cv = open_cov.resize((round(open_cov.width * z), round(open_cov.height * z)), Image.BILINEAR)
+            shadowed(im, cv, ((W - cv.width) // 2, cov_top - (cv.height - cov_h) // 2), radius=34)
+            tracked(d, (0, TOP), p["imprint_label"], font("sans-med", 30), acc, track=6, align="center", width=W)
+            y = text_block(d, (80, TOP + 56), text, of, fg, W - 160, align="center")
+            if sub:
+                text_block(d, (110, y + 34), sub, sf, acc, W - 220, align="center", spacing=1.3)
+            return im
+        return seg
+
+    if p.get("type") == "problem_solution":
+        segs = [(3.2, seg_open(v["problem"], None, 0.0)), (2.2, seg_open(v["why"], None, 3.2)),
                 (3.2, seg_points), (3.0, seg_cta)]
     else:
-        segs = [(3.0, lambda s: seg_hook(s)), (4.0, lambda s: seg_cover(s, 4.0)),
+        segs = [(3.4, seg_open(v["hook"], v.get("hook_sub"), 0.0)),
                 (3.2, lambda s: seg_points(s)), (3.3, lambda s: seg_cta(s))]
     XF = 0.4
     total = sum(dur for dur, _ in segs)

@@ -99,7 +99,7 @@ def reel(p, out):
         cy = 560 - (cv.height - 920) // 2
         shadow_paste(im, cv, ((W - cv.width) // 2, cy), radius=46)
         # hook (0–6s): above the cover
-        a = ease(t / 0.6) * (1 - ease((t - 5.6) / 0.5))
+        a = 1 - ease((t - 5.6) / 0.5)
         if a > 0:
             n = len(v["hook"].split("\n"))
             hy = 500 - n * 78

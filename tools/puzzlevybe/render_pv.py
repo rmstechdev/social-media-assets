@@ -15,6 +15,8 @@ FPS = 30
 T = {"bg": "#0e2530", "panel": "#127a73", "fg": "#ffffff", "accent": "#ffc93c", "pink": "#ef3b6e",
      "teal": "#1fb3a6", "mat": "#fbf8f2"}
 
+T_PANEL, T_TEAL = T["panel"], T["teal"]
+
 
 def pf(kind, size):
     return ImageFont.truetype(f"{F}/Poppins-{kind}.ttf", size)
@@ -192,12 +194,50 @@ def video(p, sale, out):
                  text=p.get("site_label_video", "puzzlevybe.com"))
         return im
 
+    # Product-first opening: the framed puzzle art is on screen from frame 0 with the hook above it.
+    d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    of, sf = pf("Bold", 88), pf("Regular", 44)
+    TOP = 210
+
+    def text_h(text, sub=None):
+        h = len(wrap(d0, text, of, W - 140)) * int(of.size * 1.1)
+        if sub:
+            h += 34 + len(wrap(d0, sub, sf, W - 220)) * int(sf.size * 1.3)
+        return h
+
     if p["type"] == "problem_solution":
-        segs = [(2.8, big_text(v["problem"])), (2.3, seg_why), (3.4, lambda s: seg_hands(s, 3.4)),
-                (3.4, seg_art), (3.4, seg_cta)]
+        texts = [(v["problem"], None), (v["why"], None)]
     else:
-        segs = [(3.0, big_text(v["hook"], v.get("hook_sub"))), (3.4, lambda s: seg_hands(s, 3.4)),
-                (3.4, seg_art), (3.4, seg_cta)]
+        texts = [(v["hook"], v.get("hook_sub"))]
+    art_top = TOP + 56 + max(text_h(a, b) for a, b in texts) + 60
+    fr_open = framed(art, 1040)
+    if art_top + fr_open.height > 1560:
+        fr_open = framed(art, max(700, round(1040 * (1560 - art_top) / fr_open.height)))
+    art_top += max(0, (1560 - art_top - fr_open.height) // 2 - 40)
+    OPEN_TOTAL = 3.2 if len(texts) == 1 else 5.4
+
+    def seg_open(text, sub, t_off):
+        def seg(s):
+            im, d = base()
+            T = t_off + s
+            d.rectangle([0, art_top + int(fr_open.height * 0.45), W, H], fill=hexc(T_PANEL))
+            z = 1.0 + 0.05 * (T / OPEN_TOTAL)
+            fr = fr_open.resize((round(fr_open.width * z), round(fr_open.height * z)), Image.BILINEAR)
+            shadowed(im, fr, ((W - fr.width) // 2, art_top - (fr.height - fr_open.height) // 2), radius=30)
+            tracked(d, (0, TOP), p["imprint_label"], pf("Medium", 30), hexc(T_TEAL), track=6, align="center",
+                    width=W)
+            y = text_block(d, (70, TOP + 56), text, of, fg, W - 140, align="center", spacing=1.1)
+            if sub:
+                text_block(d, (110, y + 34), sub, sf, acc, W - 220, align="center", spacing=1.3)
+            return im
+        return seg
+
+    if p["type"] == "problem_solution":
+        segs = [(3.2, seg_open(v["problem"], None, 0.0)), (2.2, seg_open(v["why"], None, 3.2)),
+                (3.0, lambda s: seg_hands(s, 3.0)), (3.0, seg_art), (3.0, seg_cta)]
+    else:
+        segs = [(3.2, seg_open(v["hook"], v.get("hook_sub"), 0.0)), (3.0, lambda s: seg_hands(s, 3.0)),
+                (3.0, seg_art), (3.0, seg_cta)]
     XF = 0.4
     starts, t0 = [], 0.0
     for dur, _ in segs:
