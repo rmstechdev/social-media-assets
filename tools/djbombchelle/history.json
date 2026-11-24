@@ -184,6 +184,34 @@
    "music_start": 69,
    "tiktok_post_id": "6b055ad5e5a6d75c03077534",
    "rebuilt": "2026-11-24: still image -> reel with music"
+  },
+  {
+   "id": "passport-to-love",
+   "title": "Passport To Love",
+   "brand": "Andre Soleil",
+   "page": "https://www.djbombchellemusic.com/albums/passport-to-love",
+   "hook": "Sun on the water. Passport on the table.",
+   "format": "feed image",
+   "music": null,
+   "scheduled_for": "2026-11-25T20:45:00-05:00",
+   "buffer_post_id": "6b05991ff71dcf3ceb1888e5",
+   "tiktok_post_id": "6b05992a6f38a5917eec21a3",
+   "media_folder": "djbombchelle/2026-11-24",
+   "created": "2026-11-24T09:05:00-05:00"
+  },
+  {
+   "id": "lounge-theory-boom-bap-soulful-beats-vol-1",
+   "title": "Lounge Theory: Boom Bap & Soulful Beats Vol. 1",
+   "brand": "Resonant Theory",
+   "page": "https://www.djbombchellemusic.com/albums/lounge-theory-boom-bap-soulful-beats-vol-1",
+   "hook": "Needle down. Let the room slow down.",
+   "format": "feed image",
+   "music": null,
+   "scheduled_for": "2026-11-29T20:45:00-05:00",
+   "buffer_post_id": "6b059920f71dcf3ceb18894c",
+   "tiktok_post_id": "6b05992b3da1e3b7f6507e7c",
+   "media_folder": "djbombchelle/2026-11-24",
+   "created": "2026-11-24T09:05:00-05:00"
   }
  ]
 }
