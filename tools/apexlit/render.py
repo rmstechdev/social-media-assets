@@ -127,6 +127,21 @@ def feed_image(p, out):
     c.convert("RGB").save(out, quality=92)
 
 
+def audio_args(p, total):
+    """ffmpeg input + mapping for a reel's soundtrack.
+
+    If the post has "audio" (path to an mp3/wav/m4a), play it from "audio_start" seconds with a
+    short fade in and out. Otherwise use silence. Returns (input_args, output_args).
+    """
+    src = p.get("audio")
+    if src and os.path.exists(src):
+        st = float(p.get("audio_start", 0))
+        return (["-ss", str(st), "-t", str(total), "-i", src],
+                ["-filter:a", f"afade=t=in:st=0:d=0.6,afade=t=out:st={max(0, total - 1.5):.2f}:d=1.5",
+                 "-map", "0:v", "-map", "1:a", "-b:a", "160k"])
+    return (["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"], ["-b:a", "96k"])
+
+
 # ---------------- video 1080x1920 ----------------
 def ease(x):
     x = max(0.0, min(1.0, x))
@@ -283,11 +298,12 @@ def video(p, out):
         starts.append(acc_t)
         acc_t += dur
 
+    a_in, a_out = audio_args(p, total)
     proc = subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-         "-r", str(FPS), "-i", "-", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
+         "-r", str(FPS), "-i", "-"] + a_in + a_out + ["-shortest",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", out],
+         "-c:a", "aac", "-movflags", "+faststart", out],
         stdin=subprocess.PIPE)
     for f in range(int(total * FPS)):
         tt = f / FPS

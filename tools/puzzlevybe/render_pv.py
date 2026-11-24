@@ -5,7 +5,7 @@ Reuses drawing helpers from the ApexLit render.py (set RENDER_PY_DIR or keep it 
 """
 import json, os, subprocess, sys
 sys.path.insert(0, os.environ.get("RENDER_PY_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "apexlit")))
-from render import hexc, wrap, text_block, tracked, shadowed, ease  # noqa: E402
+from render import hexc, wrap, text_block, tracked, shadowed, ease, audio_args  # noqa: E402
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -243,11 +243,12 @@ def video(p, sale, out):
     for dur, _ in segs:
         starts.append(t0)
         t0 += dur
+    a_in, a_out = audio_args(p, t0)
     proc = subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-         "-r", str(FPS), "-i", "-", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
+         "-r", str(FPS), "-i", "-"] + a_in + a_out + ["-shortest",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
+         "-c:a", "aac", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for f in range(int(t0 * FPS)):
         tt = f / FPS
         i = max(k for k, st in enumerate(starts) if st <= tt)
