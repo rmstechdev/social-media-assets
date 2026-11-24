@@ -1,0 +1,18 @@
+{"batch": "PuzzleVybe 2026-11-24", "brand": "puzzlevybe",
+ "sale": {"label": "30% OFF · ENDS DEC 1", "note": "30% off through Dec 1 (listing end_epoch 1796187801 = Dec 2 00:03 EST); free shipping per listing page"},
+ "posts": [
+ {"id": "lamplight-avenue", "type": "problem_solution", "slot": "2026-11-26T08:15:00-05:00", "format": "reel",
+  "sale": {"label": "30% OFF · ENDS DEC 1", "note": "30% off through Dec 1 (end_epoch 1796187801)"},
+  "free_shipping": true, "imprint": "PuzzleVybe", "imprint_label": "PUZZLEVYBE · 500 PIECES", "title": "Lamplight Avenue",
+  "art": "/home/claude/work/4624472536_art.png", "hands": "/home/claude/work/dl/4624472536_8.jpg", "table": "/home/claude/work/dl/4624472536_2.jpg",
+  "page": "https://www.puzzlevybe.com/listing/4624472536/lamplight-avenue-wooden-jigsaw-puzzles", "buy": "https://www.puzzlevybe.com",
+  "price": "$31.49", "price_was": "$44.99", "size": "20.5×15",
+  "slide2": "Glowing windows,\none piece at a time.", "slide3": "Finish it, then frame it.",
+  "feed_problem": "Evenings gone\nin a scroll?", "feed_answer": "Take a slow walk down Lamplight Avenue.",
+  "video_frames": {"problem": "Evenings\ngone in\na scroll?", "why": "Tired eyes,\nbusy mind,\nno wind-down.",
+    "answer_label": "TRY THIS INSTEAD", "points": ["500 wooden pieces", "30% off through Dec 1", "Free shipping"], "cta": "Lamplight Avenue"},
+  "instagram": "Evenings slipping away in a scroll? Take the scenic route instead.\n\nLamplight Avenue is a 500-piece wooden jigsaw puzzle of a rain-washed shopping street just after sunset, with lantern-lit boutiques, flower boxes and a violet and pink sky over brick storefronts. It's frameable when finished, at 20.5 by 15 inches.\n\nEvery reflection, awning and window display is packed with detail, so it's a satisfying build from the first edge piece to the last lamppost. It also makes a warm gift for a new home or a retirement.\n\n🏮 Lamplight Avenue · 500 pieces · 20.5×15 frameable\n🏷️ 30% off through Dec 1\n📦 Free shipping\n🛒 Shop: puzzlevybe.com\n🔗 Link in bio",
+  "instagram_tags": "#PuzzleVybe #LamplightAvenue #500PiecePuzzle #WoodenPuzzle #JigsawPuzzle #ScreenFreeTime #CityscapeArt #FrameableArt #PuzzleArt #NewHomeGift",
+  "tiktok": "Evenings gone in a scroll? Lamplight Avenue is a 500-piece wooden puzzle of a glowing street at sunset, frameable when finished, and it's 30% off through Dec 1 with free shipping.",
+  "tiktok_tags": "#puzzletok #jigsawpuzzle #500piecepuzzle #woodenpuzzle #screenfree"}
+ ]}
