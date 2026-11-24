@@ -1,171 +1,184 @@
 {
-  "featured": [
-    {
-      "id": "graduation-glow",
-      "page": "https://www.puzzlevybe.com/listing/4476809890/graduation-glow-empowered-black-graduate",
-      "type": "problem_solution",
-      "format": "carousel",
-      "scheduled_for": "2026-10-30T19:15:00-04:00",
-      "buffer_post_id": "6ae2d362403488e83c98c87a",
-      "media_folder": "puzzlevybe/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "golden-valley",
-      "page": "https://www.puzzlevybe.com/listing/4308472801/golden-valley-jigsaw-puzzle-500-piece",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-01T19:15:00-05:00",
-      "buffer_post_id": "6ae2d368c4bbd0de4b4d78ca",
-      "media_folder": "puzzlevybe/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "barbershop-bond",
-      "page": "https://www.puzzlevybe.com/listing/4310369818/barbershop-bond-jigsaw-puzzle-500-piece",
-      "type": "identity",
-      "format": "reel",
-      "scheduled_for": "2026-11-03T19:15:00-05:00",
-      "buffer_post_id": "6ae2d375c4bbd0de4b4d7c5e",
-      "media_folder": "puzzlevybe/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "seasons-of-love",
-      "page": "https://www.puzzlevybe.com/listing/4354418158/seasons-of-love-jigsaw-puzzle-100-piece",
-      "type": "identity",
-      "format": "carousel",
-      "scheduled_for": "2026-11-04T19:15:00-05:00",
-      "buffer_post_id": "6ae5e12fceb491e585f81cb2",
-      "media_folder": "puzzlevybe/2026-10-31",
-      "created": "2026-10-31"
-    },
-    {
-      "id": "spin-master",
-      "page": "https://www.puzzlevybe.com/listing/4308481488/spin-master-jigsaw-puzzle-500-piece",
-      "type": "identity",
-      "format": "reel",
-      "scheduled_for": "2026-11-06T19:15:00-05:00",
-      "buffer_post_id": "6ae9e3cdc6fbbde82489f198",
-      "media_folder": "puzzlevybe/2026-11-03",
-      "created": "2026-11-03"
-    },
-    {
-      "id": "still-waters",
-      "page": "https://www.puzzlevybe.com/listing/4308486844/still-waters-jigsaw-puzzle-500-piece",
-      "type": "problem_solution",
-      "format": "carousel",
-      "scheduled_for": "2026-11-08T19:15:00-05:00",
-      "buffer_post_id": "6aec87960a5aa24b7149098c",
-      "media_folder": "puzzlevybe/2026-11-05",
-      "created": "2026-11-05"
-    },
-    {
-      "id": "goodnight-glow",
-      "page": "https://www.puzzlevybe.com/listing/4410146076/goodnight-glow-jigsaw-puzzle-100-piece",
-      "type": "identity",
-      "format": "reel",
-      "scheduled_for": "2026-11-10T19:15:00-05:00",
-      "buffer_post_id": "6aec87969d6da0f8f4c9c122",
-      "media_folder": "puzzlevybe/2026-11-05",
-      "created": "2026-11-05"
-    },
-    {
-      "id": "forever-begins-here",
-      "page": "https://www.puzzlevybe.com/listing/4346095633/forever-begins-here-jigsaw-puzzle-500",
-      "type": "problem_solution",
-      "format": "carousel",
-      "scheduled_for": "2026-11-11T19:15:00-05:00",
-      "buffer_post_id": "6aef29f5af7e526d4325874e",
-      "media_folder": "puzzlevybe/2026-11-07",
-      "created": "2026-11-07"
-    },
-    {
-      "id": "loyal-bond",
-      "page": "https://www.puzzlevybe.com/listing/1862048689/loyal-bond-jigsaw-puzzle-100-piece",
-      "type": "identity",
-      "format": "reel",
-      "scheduled_for": "2026-11-13T19:15:00-05:00",
-      "buffer_post_id": "6af31e56ab43be496989dc19",
-      "media_folder": "puzzlevybe/2026-11-10",
-      "created": "2026-11-10"
-    },
-    {
-      "id": "coastal-embrace",
-      "page": "https://www.puzzlevybe.com/listing/1880188161/coastal-embrace-jigsaw-puzzle-100-piece",
-      "type": "problem_solution",
-      "format": "carousel",
-      "pieces": 300,
-      "scheduled_for": "2026-11-15T19:15:00-05:00",
-      "buffer_post_id": "6af5c21afcb998ff11b7ee49",
-      "media_folder": "puzzlevybe/2026-11-12",
-      "created": "2026-11-12"
-    },
-    {
-      "id": "grandfathers-storytime",
-      "page": "https://www.puzzlevybe.com/listing/4615314238/grandfathers-story-time-jigsaw-puzzle",
-      "type": "identity",
-      "format": "reel",
-      "pieces": 500,
-      "scheduled_for": "2026-11-17T19:15:00-05:00",
-      "buffer_post_id": "6af5c21aa7aa7358fdac5b18",
-      "media_folder": "puzzlevybe/2026-11-12",
-      "created": "2026-11-12"
-    },
-    {
-      "id": "riverside-glow",
-      "page": "https://www.puzzlevybe.com/listing/4615323852/riverside-glow-jigsaw-puzzle-500-pcs",
-      "type": "problem_solution",
-      "format": "carousel",
-      "pieces": 500,
-      "scheduled_for": "2026-11-18T18:15:00-05:00",
-      "buffer_post_id": "6af86461c5b364e062f3a0b6",
-      "media_folder": "puzzlevybe/2026-11-14",
-      "created": "2026-11-14"
-    },
-    {
-      "id": "rhythms-of-love",
-      "page": "https://www.puzzlevybe.com/listing/1866006992/rhythms-of-love-jigsaw-puzzle-100-piece",
-      "type": "problem_solution",
-      "format": "reel",
-      "pieces": 300,
-      "scheduled_for": "2026-11-19T08:15:00-05:00",
-      "buffer_post_id": "6afc59082fa84d383f3d3884",
-      "media_folder": "puzzlevybe/2026-11-17",
-      "created": "2026-11-17"
-    },
-    {
-      "id": "resilient-bloom",
-      "page": "https://www.puzzlevybe.com/listing/4308469961/resilient-bloom-jigsaw-puzzle-500-piece",
-      "type": "identity",
-      "format": "carousel",
-      "pieces": 500,
-      "scheduled_for": "2026-11-22T19:15:00-05:00",
-      "buffer_post_id": "6afefc5fb3b455c2f56fe636",
-      "media_folder": "puzzlevybe/2026-11-19",
-      "created": "2026-11-19"
-    },
-    {
-      "id": "coastal-escape",
-      "page": "https://www.puzzlevybe.com/listing/4310367692/coastal-escape-jigsaw-puzzle-500-piece",
-      "type": "problem_solution",
-      "format": "reel",
-      "pieces": 500,
-      "scheduled_for": "2026-11-24T19:15:00-05:00",
-      "buffer_post_id": "6afefc5ffd08883b646b9211",
-      "media_folder": "puzzlevybe/2026-11-19",
-      "created": "2026-11-19"
-    },
-    {
-      "id": "healing-hands",
-      "page": "https://www.puzzlevybe.com/listing/1879113561/healing-hands-jigsaw-puzzle-100-piece",
-      "type": "problem_solution",
-      "format": "carousel",
-      "pieces": 300,
-      "scheduled_for": "2026-11-25T18:15:00-05:00",
-      "buffer_post_id": "6afefc60abf4ba608b75bff9",
-      "media_folder": "puzzlevybe/2026-11-19",
-      "created": "2026-11-19"
-    }
-  ]
+ "featured": [
+  {
+   "id": "graduation-glow",
+   "page": "https://www.puzzlevybe.com/listing/4476809890/graduation-glow-empowered-black-graduate",
+   "type": "problem_solution",
+   "format": "carousel",
+   "scheduled_for": "2026-10-30T19:15:00-04:00",
+   "buffer_post_id": "6ae2d362403488e83c98c87a",
+   "media_folder": "puzzlevybe/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "golden-valley",
+   "page": "https://www.puzzlevybe.com/listing/4308472801/golden-valley-jigsaw-puzzle-500-piece",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-01T19:15:00-05:00",
+   "buffer_post_id": "6ae2d368c4bbd0de4b4d78ca",
+   "media_folder": "puzzlevybe/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "barbershop-bond",
+   "page": "https://www.puzzlevybe.com/listing/4310369818/barbershop-bond-jigsaw-puzzle-500-piece",
+   "type": "identity",
+   "format": "reel",
+   "scheduled_for": "2026-11-03T19:15:00-05:00",
+   "buffer_post_id": "6ae2d375c4bbd0de4b4d7c5e",
+   "media_folder": "puzzlevybe/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "seasons-of-love",
+   "page": "https://www.puzzlevybe.com/listing/4354418158/seasons-of-love-jigsaw-puzzle-100-piece",
+   "type": "identity",
+   "format": "carousel",
+   "scheduled_for": "2026-11-04T19:15:00-05:00",
+   "buffer_post_id": "6ae5e12fceb491e585f81cb2",
+   "media_folder": "puzzlevybe/2026-10-31",
+   "created": "2026-10-31"
+  },
+  {
+   "id": "spin-master",
+   "page": "https://www.puzzlevybe.com/listing/4308481488/spin-master-jigsaw-puzzle-500-piece",
+   "type": "identity",
+   "format": "reel",
+   "scheduled_for": "2026-11-06T19:15:00-05:00",
+   "buffer_post_id": "6ae9e3cdc6fbbde82489f198",
+   "media_folder": "puzzlevybe/2026-11-03",
+   "created": "2026-11-03"
+  },
+  {
+   "id": "still-waters",
+   "page": "https://www.puzzlevybe.com/listing/4308486844/still-waters-jigsaw-puzzle-500-piece",
+   "type": "problem_solution",
+   "format": "carousel",
+   "scheduled_for": "2026-11-08T19:15:00-05:00",
+   "buffer_post_id": "6aec87960a5aa24b7149098c",
+   "media_folder": "puzzlevybe/2026-11-05",
+   "created": "2026-11-05"
+  },
+  {
+   "id": "goodnight-glow",
+   "page": "https://www.puzzlevybe.com/listing/4410146076/goodnight-glow-jigsaw-puzzle-100-piece",
+   "type": "identity",
+   "format": "reel",
+   "scheduled_for": "2026-11-10T19:15:00-05:00",
+   "buffer_post_id": "6aec87969d6da0f8f4c9c122",
+   "media_folder": "puzzlevybe/2026-11-05",
+   "created": "2026-11-05"
+  },
+  {
+   "id": "forever-begins-here",
+   "page": "https://www.puzzlevybe.com/listing/4346095633/forever-begins-here-jigsaw-puzzle-500",
+   "type": "problem_solution",
+   "format": "carousel",
+   "scheduled_for": "2026-11-11T19:15:00-05:00",
+   "buffer_post_id": "6aef29f5af7e526d4325874e",
+   "media_folder": "puzzlevybe/2026-11-07",
+   "created": "2026-11-07"
+  },
+  {
+   "id": "loyal-bond",
+   "page": "https://www.puzzlevybe.com/listing/1862048689/loyal-bond-jigsaw-puzzle-100-piece",
+   "type": "identity",
+   "format": "reel",
+   "scheduled_for": "2026-11-13T19:15:00-05:00",
+   "buffer_post_id": "6af31e56ab43be496989dc19",
+   "media_folder": "puzzlevybe/2026-11-10",
+   "created": "2026-11-10"
+  },
+  {
+   "id": "coastal-embrace",
+   "page": "https://www.puzzlevybe.com/listing/1880188161/coastal-embrace-jigsaw-puzzle-100-piece",
+   "type": "problem_solution",
+   "format": "carousel",
+   "pieces": 300,
+   "scheduled_for": "2026-11-15T19:15:00-05:00",
+   "buffer_post_id": "6af5c21afcb998ff11b7ee49",
+   "media_folder": "puzzlevybe/2026-11-12",
+   "created": "2026-11-12"
+  },
+  {
+   "id": "grandfathers-storytime",
+   "page": "https://www.puzzlevybe.com/listing/4615314238/grandfathers-story-time-jigsaw-puzzle",
+   "type": "identity",
+   "format": "reel",
+   "pieces": 500,
+   "scheduled_for": "2026-11-17T19:15:00-05:00",
+   "buffer_post_id": "6af5c21aa7aa7358fdac5b18",
+   "media_folder": "puzzlevybe/2026-11-12",
+   "created": "2026-11-12"
+  },
+  {
+   "id": "riverside-glow",
+   "page": "https://www.puzzlevybe.com/listing/4615323852/riverside-glow-jigsaw-puzzle-500-pcs",
+   "type": "problem_solution",
+   "format": "carousel",
+   "pieces": 500,
+   "scheduled_for": "2026-11-18T18:15:00-05:00",
+   "buffer_post_id": "6af86461c5b364e062f3a0b6",
+   "media_folder": "puzzlevybe/2026-11-14",
+   "created": "2026-11-14"
+  },
+  {
+   "id": "rhythms-of-love",
+   "page": "https://www.puzzlevybe.com/listing/1866006992/rhythms-of-love-jigsaw-puzzle-100-piece",
+   "type": "problem_solution",
+   "format": "reel",
+   "pieces": 300,
+   "scheduled_for": "2026-11-19T08:15:00-05:00",
+   "buffer_post_id": "6afc59082fa84d383f3d3884",
+   "media_folder": "puzzlevybe/2026-11-17",
+   "created": "2026-11-17"
+  },
+  {
+   "id": "resilient-bloom",
+   "page": "https://www.puzzlevybe.com/listing/4308469961/resilient-bloom-jigsaw-puzzle-500-piece",
+   "type": "identity",
+   "format": "carousel",
+   "pieces": 500,
+   "scheduled_for": "2026-11-22T19:15:00-05:00",
+   "buffer_post_id": "6afefc5fb3b455c2f56fe636",
+   "media_folder": "puzzlevybe/2026-11-19",
+   "created": "2026-11-19"
+  },
+  {
+   "id": "coastal-escape",
+   "page": "https://www.puzzlevybe.com/listing/4310367692/coastal-escape-jigsaw-puzzle-500-piece",
+   "type": "problem_solution",
+   "format": "reel",
+   "pieces": 500,
+   "scheduled_for": "2026-11-24T19:15:00-05:00",
+   "buffer_post_id": "6afefc5ffd08883b646b9211",
+   "media_folder": "puzzlevybe/2026-11-19",
+   "created": "2026-11-19"
+  },
+  {
+   "id": "healing-hands",
+   "page": "https://www.puzzlevybe.com/listing/1879113561/healing-hands-jigsaw-puzzle-100-piece",
+   "type": "problem_solution",
+   "format": "carousel",
+   "pieces": 300,
+   "scheduled_for": "2026-11-25T18:15:00-05:00",
+   "buffer_post_id": "6afefc60abf4ba608b75bff9",
+   "media_folder": "puzzlevybe/2026-11-19",
+   "created": "2026-11-19"
+  },
+  {
+   "id": "lamplight-avenue",
+   "page": "https://www.puzzlevybe.com/listing/4624472536/lamplight-avenue-wooden-jigsaw-puzzles",
+   "type": "problem_solution",
+   "format": "reel",
+   "pieces": 500,
+   "music": null,
+   "scheduled_for": "2026-11-26T08:15:00-05:00",
+   "buffer_post_id": "6b059358cfa8d331d5665089",
+   "tiktok_post_id": "6b05935c570d9d24cc1c0b5f",
+   "media_folder": "puzzlevybe/2026-11-24",
+   "created": "2026-11-24"
+  }
+ ]
 }
