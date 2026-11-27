@@ -1,180 +1,207 @@
 {
-  "featured": [
-    {
-      "id": "will-ai-take-my-job",
-      "page": "https://www.apexlitpublishinggroup.com/books/10-will-ai-take-my-job/",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-02T12:15:00-05:00",
-      "buffer_post_id": "6ae2d37d02cc66e53399552d",
-      "media_folder": "apexlit/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "cybersecurity-small-business",
-      "page": "https://www.apexlitpublishinggroup.com/books/73-a-quick-guide-to-cybersecurity-for-small-business/",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-03T12:15:00-05:00",
-      "buffer_post_id": "6ae2d380c2255f48b9c82e78",
-      "media_folder": "apexlit/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "shades-of-success",
-      "page": "https://www.apexlitpublishinggroup.com/books/47-shades-of-success/",
-      "type": "identity",
-      "format": "feed image",
-      "scheduled_for": "2026-10-31T12:15:00-04:00",
-      "buffer_post_id": "6ae2d379c4bbd0de4b4d7e45",
-      "media_folder": "apexlit/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "math-mix-up-grade-3",
-      "page": "https://www.apexlitpublishinggroup.com/books/20-math-mix-up-3rd-grade-mastery-drills/",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-05T12:15:00-05:00",
-      "buffer_post_id": "6ae2d384c4bbd0de4b4d8163",
-      "media_folder": "apexlit/2026-10-29",
-      "created": "2026-10-29"
-    },
-    {
-      "id": "fashion-coloring-books-hf",
-      "page": "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
-      "pages": [
-        "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
-        "https://www.apexlitpublishinggroup.com/books/33-curvy-couture/"
-      ],
-      "imprint": "Cocoa Butter Books",
-      "type": "identity",
-      "format": "inbox_reel",
-      "scheduled_for": "2026-11-07T12:15:00-05:00",
-      "buffer_post_id": "6aeb360a380a83ae530a1107",
-      "media_folder": "apexlit/2026-11-04",
-      "created": "2026-11-04"
-    },
-    {
-      "id": "retirement-blueprint",
-      "page": "https://www.apexlitpublishinggroup.com/books/5-retirement-blueprint/",
-      "imprint": "ApexLit Publishing",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-09T12:15:00-05:00",
-      "buffer_post_id": "6aeb360be8225dc18de41170",
-      "media_folder": "apexlit/2026-11-04",
-      "created": "2026-11-04"
-    },
-    {
-      "id": "black-culture-word-search-hf",
-      "page": "https://www.apexlitpublishinggroup.com/books/29-black-culture-word-search-puzzles/",
-      "imprint": "Cocoa Butter Books",
-      "type": "identity",
-      "format": "inbox_reel",
-      "scheduled_for": "2026-11-10T12:15:00-05:00",
-      "buffer_post_id": "6aedd8ad730edf821ad184cb",
-      "media_folder": "apexlit/2026-11-06",
-      "created": "2026-11-06"
-    },
-    {
-      "id": "breaking-into-tech",
-      "page": "https://www.apexlitpublishinggroup.com/books/81-breaking-into-tech-without-a-degree/",
-      "imprint": "TechVerse Technology Books",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-12T12:15:00-05:00",
-      "buffer_post_id": "6af1cd8094b96a154c7fac52",
-      "media_folder": "apexlit/2026-11-09",
-      "created": "2026-11-09"
-    },
-    {
-      "id": "coloring-night-vertical-hf",
-      "page": "https://www.apexlitpublishinggroup.com/imprints/cocoa-butter-books/",
-      "imprint": "Cocoa Butter Books",
-      "type": "identity",
-      "format": "inbox_reel",
-      "scheduled_for": "2026-11-14T12:15:00-05:00",
-      "buffer_post_id": "6af47084dfd0aa432400814e",
-      "media_folder": "apexlit/2026-11-11",
-      "created": "2026-11-11"
-    },
-    {
-      "id": "test-prep-math-4-5",
-      "page": "https://www.apexlitpublishinggroup.com/books/23-test-prep-math-workbook-for-4th-and-5th-graders/",
-      "imprint": "Bright Minds Prep",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-16T12:15:00-05:00",
-      "buffer_post_id": "6af470852d788d7737f2aab2",
-      "media_folder": "apexlit/2026-11-11",
-      "created": "2026-11-11"
-    },
-    {
-      "id": "skilled-trades-after-40",
-      "page": "https://www.apexlitpublishinggroup.com/books/78-skilled-trades-after-40/",
-      "type": "problem_solution",
-      "format": "reel",
-      "imprint": "ApexLit Publishing",
-      "scheduled_for": "2026-11-18T12:15:00-05:00",
-      "buffer_post_id": "6afb083548feb45f2d0dfe7d",
-      "media_folder": "apexlit/2026-11-16",
-      "created": "2026-11-16"
-    },
-    {
-      "id": "cybersecurity-modern-family",
-      "page": "https://www.apexlitpublishinggroup.com/books/76-cybersecurity-for-the-modern-family/",
-      "type": "problem_solution",
-      "format": "reel",
-      "imprint": "TechVerse Technology Books",
-      "scheduled_for": "2026-11-19T09:15:00-05:00",
-      "buffer_post_id": "6afb08363e9b9dfa816b7820",
-      "media_folder": "apexlit/2026-11-16",
-      "created": "2026-11-16"
-    },
-    {
-      "id": "black-college-drumline",
-      "page": "https://www.apexlitpublishinggroup.com/books/26-black-college-drumline/",
-      "type": "identity",
-      "format": "feed image",
-      "imprint": "Cocoa Butter Books",
-      "scheduled_for": "2026-11-21T12:15:00-05:00",
-      "buffer_post_id": "6afdaad9275aba8f453d3f41",
-      "media_folder": "apexlit/2026-11-18",
-      "created": "2026-11-18"
-    },
-    {
-      "id": "grade-3-reading-comprehension",
-      "page": "https://www.apexlitpublishinggroup.com/books/17-grade-3-reading-comprehension-workbook/",
-      "imprint": "Bright Minds Prep",
-      "type": "problem_solution",
-      "format": "reel",
-      "scheduled_for": "2026-11-25T12:15:00-05:00",
-      "buffer_post_id": "6b0442b1d35c00e2ba7436eb",
-      "media_folder": "apexlit/2026-11-23",
-      "created": "2026-11-23"
-    },
-    {
-      "id": "grandmas-kitchen",
-      "page": "https://www.apexlitpublishinggroup.com/books/82-grandmas-kitchen/",
-      "imprint": "ApexLit Publishing",
-      "type": "identity",
-      "format": "reel",
-      "scheduled_for": "2026-11-26T09:15:00-05:00",
-      "buffer_post_id": "6b0442b2f3aecf260a99907b",
-      "media_folder": "apexlit/2026-11-23",
-      "created": "2026-11-23"
-    },
-    {
-      "id": "coloring-night-table-hf",
-      "page": "https://www.apexlitpublishinggroup.com/imprints/cocoa-butter-books/",
-      "imprint": "Cocoa Butter Books",
-      "type": "identity",
-      "format": "inbox_reel",
-      "scheduled_for": "2026-11-28T12:15:00-05:00",
-      "buffer_post_id": "6b0442b3ab9184f298a5fd92",
-      "media_folder": "apexlit/2026-11-23",
-      "created": "2026-11-23"
-    }
-  ]
+ "featured": [
+  {
+   "id": "will-ai-take-my-job",
+   "page": "https://www.apexlitpublishinggroup.com/books/10-will-ai-take-my-job/",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-02T12:15:00-05:00",
+   "buffer_post_id": "6ae2d37d02cc66e53399552d",
+   "media_folder": "apexlit/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "cybersecurity-small-business",
+   "page": "https://www.apexlitpublishinggroup.com/books/73-a-quick-guide-to-cybersecurity-for-small-business/",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-03T12:15:00-05:00",
+   "buffer_post_id": "6ae2d380c2255f48b9c82e78",
+   "media_folder": "apexlit/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "shades-of-success",
+   "page": "https://www.apexlitpublishinggroup.com/books/47-shades-of-success/",
+   "type": "identity",
+   "format": "feed image",
+   "scheduled_for": "2026-10-31T12:15:00-04:00",
+   "buffer_post_id": "6ae2d379c4bbd0de4b4d7e45",
+   "media_folder": "apexlit/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "math-mix-up-grade-3",
+   "page": "https://www.apexlitpublishinggroup.com/books/20-math-mix-up-3rd-grade-mastery-drills/",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-05T12:15:00-05:00",
+   "buffer_post_id": "6ae2d384c4bbd0de4b4d8163",
+   "media_folder": "apexlit/2026-10-29",
+   "created": "2026-10-29"
+  },
+  {
+   "id": "fashion-coloring-books-hf",
+   "page": "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
+   "pages": [
+    "https://www.apexlitpublishinggroup.com/books/41-shades-of-elegance/",
+    "https://www.apexlitpublishinggroup.com/books/33-curvy-couture/"
+   ],
+   "imprint": "Cocoa Butter Books",
+   "type": "identity",
+   "format": "inbox_reel",
+   "scheduled_for": "2026-11-07T12:15:00-05:00",
+   "buffer_post_id": "6aeb360a380a83ae530a1107",
+   "media_folder": "apexlit/2026-11-04",
+   "created": "2026-11-04"
+  },
+  {
+   "id": "retirement-blueprint",
+   "page": "https://www.apexlitpublishinggroup.com/books/5-retirement-blueprint/",
+   "imprint": "ApexLit Publishing",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-09T12:15:00-05:00",
+   "buffer_post_id": "6aeb360be8225dc18de41170",
+   "media_folder": "apexlit/2026-11-04",
+   "created": "2026-11-04"
+  },
+  {
+   "id": "black-culture-word-search-hf",
+   "page": "https://www.apexlitpublishinggroup.com/books/29-black-culture-word-search-puzzles/",
+   "imprint": "Cocoa Butter Books",
+   "type": "identity",
+   "format": "inbox_reel",
+   "scheduled_for": "2026-11-10T12:15:00-05:00",
+   "buffer_post_id": "6aedd8ad730edf821ad184cb",
+   "media_folder": "apexlit/2026-11-06",
+   "created": "2026-11-06"
+  },
+  {
+   "id": "breaking-into-tech",
+   "page": "https://www.apexlitpublishinggroup.com/books/81-breaking-into-tech-without-a-degree/",
+   "imprint": "TechVerse Technology Books",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-12T12:15:00-05:00",
+   "buffer_post_id": "6af1cd8094b96a154c7fac52",
+   "media_folder": "apexlit/2026-11-09",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "coloring-night-vertical-hf",
+   "page": "https://www.apexlitpublishinggroup.com/imprints/cocoa-butter-books/",
+   "imprint": "Cocoa Butter Books",
+   "type": "identity",
+   "format": "inbox_reel",
+   "scheduled_for": "2026-11-14T12:15:00-05:00",
+   "buffer_post_id": "6af47084dfd0aa432400814e",
+   "media_folder": "apexlit/2026-11-11",
+   "created": "2026-11-11"
+  },
+  {
+   "id": "test-prep-math-4-5",
+   "page": "https://www.apexlitpublishinggroup.com/books/23-test-prep-math-workbook-for-4th-and-5th-graders/",
+   "imprint": "Bright Minds Prep",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-16T12:15:00-05:00",
+   "buffer_post_id": "6af470852d788d7737f2aab2",
+   "media_folder": "apexlit/2026-11-11",
+   "created": "2026-11-11"
+  },
+  {
+   "id": "skilled-trades-after-40",
+   "page": "https://www.apexlitpublishinggroup.com/books/78-skilled-trades-after-40/",
+   "type": "problem_solution",
+   "format": "reel",
+   "imprint": "ApexLit Publishing",
+   "scheduled_for": "2026-11-18T12:15:00-05:00",
+   "buffer_post_id": "6afb083548feb45f2d0dfe7d",
+   "media_folder": "apexlit/2026-11-16",
+   "created": "2026-11-16"
+  },
+  {
+   "id": "cybersecurity-modern-family",
+   "page": "https://www.apexlitpublishinggroup.com/books/76-cybersecurity-for-the-modern-family/",
+   "type": "problem_solution",
+   "format": "reel",
+   "imprint": "TechVerse Technology Books",
+   "scheduled_for": "2026-11-19T09:15:00-05:00",
+   "buffer_post_id": "6afb08363e9b9dfa816b7820",
+   "media_folder": "apexlit/2026-11-16",
+   "created": "2026-11-16"
+  },
+  {
+   "id": "black-college-drumline",
+   "page": "https://www.apexlitpublishinggroup.com/books/26-black-college-drumline/",
+   "type": "identity",
+   "format": "feed image",
+   "imprint": "Cocoa Butter Books",
+   "scheduled_for": "2026-11-21T12:15:00-05:00",
+   "buffer_post_id": "6afdaad9275aba8f453d3f41",
+   "media_folder": "apexlit/2026-11-18",
+   "created": "2026-11-18"
+  },
+  {
+   "id": "grade-3-reading-comprehension",
+   "page": "https://www.apexlitpublishinggroup.com/books/17-grade-3-reading-comprehension-workbook/",
+   "imprint": "Bright Minds Prep",
+   "type": "problem_solution",
+   "format": "reel",
+   "scheduled_for": "2026-11-25T12:15:00-05:00",
+   "buffer_post_id": "6b0442b1d35c00e2ba7436eb",
+   "media_folder": "apexlit/2026-11-23",
+   "created": "2026-11-23"
+  },
+  {
+   "id": "grandmas-kitchen",
+   "page": "https://www.apexlitpublishinggroup.com/books/82-grandmas-kitchen/",
+   "imprint": "ApexLit Publishing",
+   "type": "identity",
+   "format": "reel",
+   "scheduled_for": "2026-11-26T09:15:00-05:00",
+   "buffer_post_id": "6b0442b2f3aecf260a99907b",
+   "media_folder": "apexlit/2026-11-23",
+   "created": "2026-11-23"
+  },
+  {
+   "id": "coloring-night-table-hf",
+   "page": "https://www.apexlitpublishinggroup.com/imprints/cocoa-butter-books/",
+   "imprint": "Cocoa Butter Books",
+   "type": "identity",
+   "format": "inbox_reel",
+   "scheduled_for": "2026-11-28T12:15:00-05:00",
+   "buffer_post_id": "6b0442b3ab9184f298a5fd92",
+   "media_folder": "apexlit/2026-11-23",
+   "created": "2026-11-23",
+   "tiktok_post_id": "6b055add946079b5548d0a56"
+  },
+  {
+   "id": "agentic-ai-it-pros",
+   "page": "https://www.apexlitpublishinggroup.com/books/72-a-quick-guide-to-agentic-ai-for-it-professionals/",
+   "imprint": "TechVerse Technology Books",
+   "type": "problem_solution",
+   "format": "reel",
+   "music": null,
+   "scheduled_for": "2026-11-30T12:15:00-05:00",
+   "buffer_post_id": "6b0988a2015034238d2d2f0d",
+   "tiktok_post_id": "6b0988a9bb117e5ba74cc690",
+   "media_folder": "apexlit/2026-11-27",
+   "created": "2026-11-27T08:42:00-05:00"
+  },
+  {
+   "id": "exam-prep-math-grade-6",
+   "page": "https://www.apexlitpublishinggroup.com/books/15-exam-prep-math-activity-book-grade-6/",
+   "imprint": "Bright Minds Prep",
+   "type": "problem_solution",
+   "format": "reel",
+   "music": null,
+   "scheduled_for": "2026-12-02T12:15:00-05:00",
+   "buffer_post_id": "6b0988a318c8c6749bea79ee",
+   "tiktok_post_id": "6b0988aa015034238d2d32c6",
+   "media_folder": "apexlit/2026-11-27",
+   "created": "2026-11-27T08:42:00-05:00"
+  }
+ ]
 }
