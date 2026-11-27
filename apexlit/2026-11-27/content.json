@@ -1,0 +1,52 @@
+{"batch": "ApexLit 2026-11-27", "posts": [
+{
+ "id": "agentic-ai-it-pros",
+ "type": "problem_solution",
+ "slot": "2026-11-30T12:15:00-05:00",
+ "imprint": "TechVerse Technology Books",
+ "imprint_label": "TECHVERSE TECHNOLOGY BOOKS",
+ "title": "A Quick Guide to Agentic AI for IT Professionals",
+ "cover": "covers/agentic-ai.png",
+ "page": "https://www.apexlitpublishinggroup.com/books/72-a-quick-guide-to-agentic-ai-for-it-professionals/",
+ "buy": "https://www.amazon.com/dp/B0H56S6HZQ",
+ "theme": {"bg":"#0a1730","panel":"#16305c","fg":"#ffffff","accent":"#f5c242"},
+ "feed_problem": "AI agents are coming.\nWhere do they fit?",
+ "feed_answer": "A quick guide to agentic AI for IT professionals",
+ "video_frames": {
+  "problem": "AI agents\nin your stack?",
+  "why": "Know how they fit\nbefore you build",
+  "answer_label": "THE GUIDE",
+  "points": ["Agent architectures", "Governance", "AI operations"],
+  "cta": "Find it at the link in bio"
+ },
+ "instagram": "Everyone is talking about AI agents. Your job is figuring out how they would actually fit into the systems you run.\n\nA Quick Guide to Agentic AI for IT Professionals is a short guide for IT professionals who want a clear look at agent-based systems. It covers agentic AI architectures, governance, AI operations and enterprise automation.\n\nIt looks at how agent-based systems fit into modern technology environments, so you can think it through before your team builds anything.\n\n💻 A Quick Guide to Agentic AI for IT Professionals: Architectures, Governance, AI Operations, and Enterprise Automation, from TechVerse Technology Books\n📖 Get it: apexlitpublishinggroup.com/books/72-a-quick-guide-to-agentic-ai-for-it-professionals/\n🔗 Link in bio",
+ "instagram_tags": "#TechVerseBooks #AgenticAI #AIAgents #ITProfessionals #EnterpriseAI #AIGovernance #AIOps #Automation #TechCareers",
+ "tiktok": "AI agents are showing up in IT plans everywhere. A Quick Guide to Agentic AI for IT Professionals covers architectures, governance, AI operations and enterprise automation.",
+ "tiktok_tags": "#techtok #agenticai #itprofessional #careertok #aitools"
+},
+{
+ "id": "exam-prep-math-grade-6",
+ "type": "problem_solution",
+ "slot": "2026-12-02T12:15:00-05:00",
+ "imprint": "Bright Minds Prep",
+ "imprint_label": "BRIGHT MINDS PREP",
+ "title": "Exam Prep Math Activity Book Grade 6",
+ "cover": "covers/exam-prep-grade-6.png",
+ "page": "https://www.apexlitpublishinggroup.com/books/15-exam-prep-math-activity-book-grade-6/",
+ "buy": "https://www.amazon.com/dp/B0CHL3MC4Q",
+ "theme": {"bg":"#1f3a5f","panel":"#f6c33b","fg":"#ffffff","accent":"#f6c33b","panel_fg":"#1f3a5f"},
+ "feed_problem": "Ratios and algebra\nfeeling shaky?",
+ "feed_answer": "Sixth grade math practice for test prep and review",
+ "video_frames": {
+  "problem": "6th grade\nmath feeling\nshaky?",
+  "why": "Steady practice\nbuilds confidence",
+  "answer_label": "START HERE",
+  "points": ["Arithmetic practice", "Algebra and ratios", "Fractions review"],
+  "cta": "Practice math together"
+ },
+ "instagram": "Sixth grade math moves fast, and ratios, fractions and algebra can start to feel shaky.\n\nExam Prep Math Activity Book Grade 6 is a math practice book for sixth graders getting ready for tests. It covers addition, subtraction, multiplication, division, algebra, ratios and fractions.\n\nUse it alongside classroom learning or for independent review at home, a little at a time.\n\n📚 Exam Prep Math Activity Book Grade 6: Addition, Subtraction, Multiplication, Division, Algebra, Ratio, Fraction Test Prep for 6th Graders, from Bright Minds Prep\n📖 Get it: apexlitpublishinggroup.com/books/15-exam-prep-math-activity-book-grade-6/\n🔗 Link in bio",
+ "instagram_tags": "#BrightMindsPrep #6thGradeMath #SixthGrade #MathPractice #TestPrep #MiddleSchoolMath #Homeschool #LearningTogether #MathWorkbook",
+ "tiktok": "Ratios, fractions and algebra feeling shaky in 6th grade? Exam Prep Math Activity Book Grade 6 gives your kid practice for test prep and review.",
+ "tiktok_tags": "#momtok #teachertok #homeschool #testprep #6thgrade"
+}
+]}
