@@ -26,6 +26,21 @@ def load(path):
     return Image.open(os.path.join(HERE, path)).convert("RGB")
 
 
+def square_photo(path, size, art=None):
+    """A size x size photo. Square photos are used as is; anything else (or a missing photo,
+    which falls back to the art) is shown framed on the brand background so nothing is
+    stretched or cut off."""
+    im = load(path) if path else art
+    if abs(im.width / im.height - 1) < 0.06:
+        return im.resize((size, size), Image.LANCZOS)
+    c = Image.new("RGBA", (size, size), hexc(T["panel"]))
+    fr = framed(im, round(size * 0.86))
+    if fr.height > size * 0.9:
+        fr = fr.resize((round(fr.width * size * 0.9 / fr.height), round(size * 0.9)), Image.LANCZOS)
+    c.alpha_composite(fr.convert("RGBA"), ((size - fr.width) // 2, (size - fr.height) // 2))
+    return c.convert("RGB")
+
+
 def fit_w(im, w):
     return im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
 
@@ -87,18 +102,19 @@ def slide1(p, sale, out):
     pill(d, M, by, sale["label"], pf("Bold", 28), hexc(T["pink"]), hexc("#ffffff"))
     f2, f3 = pf("Bold", 36), pf("Regular", 26)
     was = p.get("price_was", "")
-    px = W - M - d.textlength(p["price"], font=f2)
-    d.text((px, by + 2), p["price"], font=f2, fill=hexc(T["fg"]))
+    price = p.get("price", "")
+    px = W - M - d.textlength(price, font=f2)
+    d.text((px, by + 2), price, font=f2, fill=hexc(T["fg"]))
     free = p.get("free_shipping", "FREE SHIPPING" in sale.get("label", "").upper())
     sub = "  ·  ".join(x for x in [f"was {was}" if was else "", "free shipping" if free else ""] if x)
     d.text((W - M - d.textlength(sub, font=f3), by + 48), sub, font=f3, fill=hexc(T["fg"]))
     c.convert("RGB").save(out, quality=92)
 
 
-def photo_slide(photo, caption, sub, out, site="PUZZLEVYBE.COM"):
+def photo_slide(photo, caption, sub, out, site="PUZZLEVYBE.COM", art=None):
     W, H = 1080, 1350
     c = Image.new("RGBA", (W, H), hexc(T["bg"]))
-    ph = load(photo).resize((W, W), Image.LANCZOS)
+    ph = square_photo(photo, W, art)
     c.paste(ph, (0, 0))
     d = ImageDraw.Draw(c)
     stripes(d, W, y=W, h=10)
@@ -115,7 +131,7 @@ def video(p, sale, out):
     v = p["video_frames"]
     bg, fg, acc = hexc(T["bg"]), hexc(T["fg"]), hexc(T["accent"])
     art = load(p["art"])
-    hands = load(p["hands"]).resize((W, W), Image.LANCZOS)
+    hands = square_photo(p.get("hands") or p.get("table"), W, art)
     fr_big = framed(art, 1000)
     fr_small = framed(art, 860)
 
@@ -262,10 +278,10 @@ def video(p, sale, out):
 
 def render_post(p, sale, out_dir, with_video=True):
     slide1(p, sale, f"{out_dir}/{p['id']}-1.jpg")
-    photo_slide(p["hands"], p["slide2"], "PIECE BY PIECE", f"{out_dir}/{p['id']}-2.jpg",
-                site=p.get("site_label", "PUZZLEVYBE.COM"))
-    photo_slide(p["table"], p["slide3"], "FROM PUZZLE TO WALL ART", f"{out_dir}/{p['id']}-3.jpg",
-                site=p.get("site_label", "PUZZLEVYBE.COM"))
+    photo_slide(p.get("hands") or p.get("table"), p["slide2"], "PIECE BY PIECE", f"{out_dir}/{p['id']}-2.jpg",
+                site=p.get("site_label", "PUZZLEVYBE.COM"), art=load(p["art"]))
+    photo_slide(p.get("table"), p["slide3"], "FROM PUZZLE TO WALL ART", f"{out_dir}/{p['id']}-3.jpg",
+                site=p.get("site_label", "PUZZLEVYBE.COM"), art=load(p["art"]))
     if with_video:
         video(p, sale, f"{out_dir}/{p['id']}-reel.mp4")
 
